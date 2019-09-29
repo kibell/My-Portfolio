@@ -1,16 +1,46 @@
 footer
 {
     color:white;
-    height:75px;
+    height:60px;
     text-align: center;
     line-height: 25px;
-    font-size: 28px;
+    font-size: 18px;
+    margin-top: 5px;
 }
+p.footer
+{
+margin-top:15px;
+padding-top: 15px;
 
+}
+p
+{
+    margin: 10px;
+    font-family: 'Merriweather', serif;
+}
 h1{
     height:100%;
     font-family: 'Cinzel', serif;
+   
+    padding:0px;
+    margin:0px;
+   
 }
+
+.navbar
+{
+    margin: 0%;
+    padding:0px;
+}
+
+
+a.navbar-brand
+{
+background: #4aaaa5;
+margin:0px;
+padding:0px;
+}
+
 
 .a .nav-link
 {
@@ -22,4 +52,15 @@ h2{
     font-family: 'Cinzel', serif;
     font-weight: bold;
     text-align: center;
+    box-shadow: 5px 5px #777;
+}
+
+
+@media (min-width:600px ) 
+{
+img {
+    width: 100%;
+    height: auto;
+}
+
 }

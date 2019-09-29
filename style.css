@@ -20,13 +20,14 @@ p.footer
 {
 margin-top:15px;
 padding-top: 15px;
+text-align: center;
 
 }
 p
 {
     margin: 20px;
     font-family: 'Merriweather', serif;
-    float:left;
+   
     
   
 }
@@ -62,6 +63,7 @@ h2{
     font-weight: bold;
     text-align: center;
     box-shadow: 5px 5px #777;
+    margin: 5px;
 }
 
 

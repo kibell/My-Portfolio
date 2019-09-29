@@ -9,10 +9,14 @@ footer
 
 h1{
     height:100%;
-    
+    font-family: 'Cinzel', serif;
 }
 
- a
+.nav .link
 {
-    color:white;
+    color:blue;
+}
+
+h2{
+    font-family: 'Cinzel', serif;
 }

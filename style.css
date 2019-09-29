@@ -12,11 +12,14 @@ h1{
     font-family: 'Cinzel', serif;
 }
 
-.nav .link
+.a .nav-link
 {
     color:blue;
+    font-family: 'Cinzel', serif;
 }
 
 h2{
     font-family: 'Cinzel', serif;
+    font-weight: bold;
+    text-align: center;
 }

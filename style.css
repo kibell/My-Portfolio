@@ -1,3 +1,11 @@
+
+
+div.container
+{
+    
+    margin-top:25px;
+}
+
 footer
 {
     color:white;
@@ -15,8 +23,11 @@ padding-top: 15px;
 }
 p
 {
-    margin: 10px;
+    margin: 20px;
     font-family: 'Merriweather', serif;
+    float:left;
+    
+  
 }
 h1{
     height:100%;
@@ -31,6 +42,7 @@ h1{
 {
     margin: 0%;
     padding:0px;
+    
 }
 
 
@@ -42,11 +54,7 @@ padding:0px;
 }
 
 
-.a .nav-link
-{
-    color:blue;
-    font-family: 'Cinzel', serif;
-}
+
 
 h2{
     font-family: 'Cinzel', serif;
@@ -57,11 +65,18 @@ h2{
 
 
 
-@media (min-width:600px ) 
+a:hover
 {
-img {
-    width: 100%;
-    height: auto;
+    background: grey;
+    
+
 }
+
+img
+{
+   box-shadow: 5px 5px #4aaaa5 ;
+   border-radius: 50%;
+   float: left;
+   
 
 }

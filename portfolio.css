@@ -1,3 +1,7 @@
+body{
+   
+}
+
 footer
 {
     color:white;
@@ -17,8 +21,9 @@ padding-top: 15px;
 img{
 
     margin: 5px;
-    margin-bottom: 10px;
-    widows: 200px;
+    margin-bottom: 20px;
+    
+
 }
 p
 {
@@ -28,7 +33,7 @@ p
 h1{
     height:100%;
     font-family: 'Cinzel', serif;
-   
+   background: #4aaaa5;
     padding:0px;
     margin:0px;
    
@@ -64,11 +69,24 @@ h2{
 
 
 
-@media (min-width:600px ) 
-{
-img {
-    width: 100%;
-    height: auto;
+h3{
+    position: absolute;
+    bottom:20px;
+    background: #4aaaa5;
+    color:white;
+    font-family: 'Cinzel', serif;
+    width: 220px;
+    padding:10px;
 }
 
+a:hover
+{
+    background: grey;
+    
+
+}
+
+h3:hover
+{
+    background: #777;
 }

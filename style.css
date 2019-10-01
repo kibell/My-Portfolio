@@ -26,7 +26,11 @@ text-align: center;
 p
 {
     margin: 20px;
-    font-family: 'Merriweather', serif;
+    font-family: adobe-garamond-pro, serif;
+
+font-weight: 400;
+font-size: 20px;
+font-style: italic;
    
     
   
@@ -80,6 +84,13 @@ img
    box-shadow: 5px 5px #4aaaa5 ;
    border-radius: 50%;
    float: left;
+  
    
 
+}
+
+h3{
+    position: absolute;
+   top:100px;
+  
 }

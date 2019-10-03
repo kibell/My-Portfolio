@@ -48,18 +48,21 @@ h1{
 {
     margin: 0%;
     padding:0px;
-    
+    background: #4aaaa5;
 }
 
 
 a.navbar-brand
 {
-background: #4aaaa5;
+
 margin:0px;
 padding:0px;
 }
 
-
+.bg-dark
+{
+    background-image: linear-gradient(to left  , #4aaaa5, black);
+}
 
 
 h2{

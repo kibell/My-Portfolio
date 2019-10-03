@@ -36,11 +36,12 @@ font-style: italic;
   
 }
 h1{
-    height:100%;
+    
     font-family: 'Cinzel', serif;
-   
+
     padding:0px;
-    margin:0px;
+    margin-left:10px;
+    
    
 }
 
@@ -55,7 +56,8 @@ h1{
 a.navbar-brand
 {
 
-margin:0px;
+margin:5px;
+
 padding:0px;
 }
 
@@ -73,6 +75,12 @@ h2{
     margin: 5px;
 }
 
+.nav-item
+{
+font-family: 'Cinzel', serif;
+font-weight: 500px;
+
+}
 
 
 a:hover
@@ -96,4 +104,18 @@ h3{
     position: absolute;
    top:100px;
   
+}
+
+
+.extend
+{
+    background-image: linear-gradient(to left, #4aaaa5, black);
+    padding-top: 7%;
+    
+}
+
+.quote
+{
+    color:white;
+    
 }

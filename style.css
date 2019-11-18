@@ -63,7 +63,7 @@ padding:0px;
 
 .bg-dark
 {
-    background-image: linear-gradient(to left  , #4aaaa5, black);
+    background-image: linear-gradient(to left  , grey, black);
 }
 
 
@@ -92,9 +92,7 @@ a:hover
 
 img
 {
-   box-shadow: 5px 5px #4aaaa5 ;
-   border-radius: 50%;
-   float: left;
+  
   
    
 
@@ -109,13 +107,20 @@ h3{
 
 .extend
 {
-    background-image: linear-gradient(to left, #4aaaa5, black);
+    background-image: linear-gradient(to left, grey, black);
     padding-top: 7%;
     
 }
 
 .quote
 {
-    color:white;
+    color:cornflowerblue;
+    
+}
+
+.wave
+{
+    width: 100%;
+    background-image: linear-gradient(to left, #4aaaa5, black);
     
 }

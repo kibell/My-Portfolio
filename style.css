@@ -124,3 +124,8 @@ h3{
     background-image: linear-gradient(to left, #4aaaa5, black);
     
 }
+
+.card-body{
+    
+    background: cornflowerblue;
+}

@@ -20,41 +20,34 @@
 <body style="background: linear-gradient(to left, grey,black);">
 
   <header class="fixed-top">
-    <div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark" style="background: url(./images/background.jpg);" >
+      <a class="navbar-brand" > </a>
+      <h1 style="color: white ">Kitrick Bell</h1>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+        
+          <ul class="navbar-nav ml-auto" >
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-
-        <h1 style="color: cornflowerblue; ">Kitrick Bell</h1>
-
-
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-
-          <ul class="navbar-nav ml-auto">
-
-
-        </div>
-        </ul>
-
-      </nav>
-    </div>
-    <nav>
-      <div class="nav nav-tabs" id="nav-tab" role="tablist">
-        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab"
-          aria-controls="nav-home" aria-selected="true">Home</a>
-        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab"
-          aria-controls="nav-profile" aria-selected="false">Projects</a>
-        <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab"
-          aria-controls="nav-contact" aria-selected="false">Contact</a>
+          
+          <li class="nav-item" >
+            <a class="nav-link" href="index.html" style="color: beige" style= "font-family:'Cinzel', serif" >ABOUT ME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html" style="color: beige">CONTACT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html" style="color: beige">PORTFOLIO</a>
+          </li>
+          
+          </li>
       </div>
+        </ul>
+        
     </nav>
-
 
 
   </header>
@@ -75,15 +68,11 @@
 
 
   
-    <div class="tab-content" id="nav-tabContent" style="margin-top: 50px;">
-
-      <div class="tab-pane fade show active " id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-       
         
-          <div class="col-md-12 " style= "margin-top: 160px;">
-              <div class="jumbotron jumbotron-fluid" style="background: url(./images/background.jpg)">
-                    <h1 class="display-4">Fluid jumbotron</h1>
-                    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+          <div  >
+              <div class="jumbotron jumbotron-fluid" style="background: url(./images/background.jpg); height: 500px; ">
+                    <h1 class="display-4"></h1>
+                    <p class="lead"></p>
                   </div>
                 </div>
           </div>
@@ -92,122 +81,29 @@
       </div>
 
 
+      <div class="container" >
+          <h1 id="aboutMe">About ME</h1>
+<div class="row">
+          
 
-      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-
-        <div class="container" style="background:linear-gradient(to right, grey,blue);  margin-top: 200px">
-
-          <div class="row">
-            <div class="card" style="width: 18rem; margin: 35px;">
-              <img src="./images/meetme1).gif" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Meet me</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <a target="_blank" href="https://kibell.github.io/Meetme/" class="btn btn-primary">Visit Site</a>
-                <a target="_blank" href="https://github.com/kibell/Meetme" class="btn code btn-warning">View Code</a>
-              </div>
-            </div>
-
-            <div class="card" style="width: 18rem; margin: 35px;">
-              <img src="./images/giphy API.gif" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Giphy API</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <a target="_blank" href="https://kibell.github.io/GiphyAPI/" class="btn btn-primary">Visit Site</a>
-                <a target="_blank" href="https://github.com/kibell/GiphyAPI" class="btn code btn-warning">View Code</a>
-              </div>
-            </div>
-
-            <div class="card" style="width: 18rem;; margin: 35px;">
-              <img src="./images/trivia.gif" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Trivia Game</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <a target="_blank" href="https://kibell.github.io/Trivia-Game-/" class="btn btn-primary">Visit Site</a>
-                <a target="_blank" href="https://github.com/kibell/Trivia-Game-" class="btn code btn-warning">View
-                  Code</a>
-              </div>
-            </div>
-
-
-
-
-
-
-
-
-
-          </div>
-          <!-- -----------------new row -->
-          <div class="row">
-            <div class="card" style="width: 18rem; margin: 35px;">
-              <img src="./images/pokemon.gif" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Role Playing Game</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <a target="_blank" href="https://kibell.github.io/pokemon-rpg-game/" class="btn btn-primary">Visit
-                  Site</a>
-                <a target="_blank" href="https://github.com/kibell/pokemon-rpg-game" class="btn code btn-warning">View
-                  Code</a>
-              </div>
-            </div>
-
-            <div class="card" style="width: 18rem; margin: 35px;">
-              <img src="./images/Multi.gif" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Multi-Player RPS</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <a target="_blank" href="https://kibell.github.io/RPS-Multiplayer/" class="btn btn-primary">Visit
-                  Site</a>
-                <a target="_blank" href="https://github.com/kibell/RPS-Multiplayer" class="btn code btn-warning">View
-                  Code</a>
-              </div>
-            </div>
-
-
-            <div class="card" style="width: 18rem;; margin: 35px">
-              <img src="./images/guessing game gif.gif" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Number Guessing Game</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <a target="_blank" href="https://kibell.github.io/Number-Guess-Game/" class="btn btn-primary">Visit
-                  Site</a>
-                <a target="_blank" href="https://github.com/kibell/Number-Guess-Game" class="btn code">View Code</a>
-              </div>
-            </div>
-          </div>
-
-
-
-
-
-
-
+<div class="col-md-6" >
+    <div  style="width: 100%; background: url(./images/houstonjpg.jpg)">
+        <img src="images/Annotation 2019-09-28 171246.png" style="border-radius: 50%; width: 200px; margin-left: auto ; margin-right: auto; display: block" class="card-img-top" alt="...">
+        <div class="card-body" >
+          <h5 class="card-title">Kitrick Bell</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
       </div>
 
+<div class="col-md-6">
+  
 
+</div>
 
-
-
-        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="contact-tab">
-          
-          <div class="section" style="background:linear-gradient(to right, grey,blue); margin-top: 200px">
-              <p>lll999l</p>
-          </div>
-
-        </div>
-
-
-
-     </div>
-
+      </div>
+</div>
+     
 
 
 

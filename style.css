@@ -48,11 +48,7 @@ h1{
     
     font-family: 'Cinzel', serif;
 
-    padding:0px;
-    margin-left:10px;
-    background: -webkit-linear-gradient(rgb(245, 222, 21), #333);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    
     font-weight: 800;
     text-align: center;
    

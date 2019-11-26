@@ -85,15 +85,33 @@
             
             
               </div>
-              <h5 style="text-align: center;">Houston's Weather</h5>
-              <div id ="icon">
-
-              </div>
-              <div id ="iconPhrase">
-
-                </div>
+              <div class = "row">
+                <div class="col-md-12">
+              <h4 style="text-align: center;">Houston's Weather</h4>
+              <p id="date">11-23-19</p>
+                  <h5 style="text-align: center;">DAY</h5>
+              <p style="text-align: center;" id ="icon"></p> 
+              <p style="text-align: center;" id ="iconPhrase"></p>
+              <hr>
+              <h5 style="text-align: center;">NIGHT</h5>
+              <p style="text-align: center;" id ="iconN"></p> 
+              <p style="text-align: center;" id ="iconPhraseN"></p>
+              <hr>
+              <p style="text-align: center;" id ="tempMin"></p>
+              <p style="text-align: center;" id ="temp"></p>
+              <hr>
+            </div>
+            </div>
+            <div class = "row">
+                <div class="col-md-12">
+             
+                  
+              <p style="text-align: center;" id ="tempMinN"></p>
+              <p style="text-align: center;" id ="tempN"></p>
+            </div>
             </div>
           </div>
+        </div>
     </div>
        
    <div class="col-md-10" >
@@ -252,10 +270,18 @@
     }).then(function(response) {
       const iconCode = response.DailyForecasts[0].Day.Icon
       const iconUrl = `https://developer.accuweather.com/sites/default/files/0${iconCode}-s.png`
+      const iconCodeN = response.DailyForecasts[0].Night.Icon
+      const iconUrlN = `https://developer.accuweather.com/sites/default/files/${iconCodeN}-s.png`
       console.log(response);
-      console.log(response.DailyForecasts[0].Temperature.Maximum.Value);
+      $('#date').text(Date())
+      $('#tempMin').text("LOW " + response.DailyForecasts[0].Temperature.Minimum.Value + " F");
+      $('#temp').text("HIGH " + response.DailyForecasts[0].Temperature.Maximum.Value + " F");
       $('#iconPhrase').text(response.DailyForecasts[0].Day.IconPhrase);
       $('#icon').html("<img src='"  + iconUrl  + "'>")
+
+
+      $('#iconPhraseN').text(response.DailyForecasts[0].Night.IconPhrase);
+      $('#iconN').html("<img src='"  + iconUrlN  + "'>")
 
     });
 

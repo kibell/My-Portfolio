@@ -70,49 +70,50 @@
               <hr>
               
               <div class="col-md-12">
-                <ul style="display:grid">
-              <li><a href="https://github.com/kibell" target="_blank">  <i class="fab fa-github-alt fa-2x" > </i> </a>  
-              </li>
+                <ul >
+              <li  >
+                <a style="margin: 25px;" href="https://github.com/kibell" target="_blank">  <i class="fab fa-github-alt fa-2x" > </i> </a>  
+              
                 
-              <li>
-              <a href="https://www.linkedin.com/in/kitrick-bell-83221494/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
-            </li>
+              
+              <a style="margin: 25px;" href="https://www.linkedin.com/in/kitrick-bell-83221494/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+            
 
-                <li>
-              <a href="KBell Resume.pdf" target="_blank">  <i class="fas fa-file fa-2x"></i>  </a>
+                
+              <a style="margin: 25px;" href="KBell Resume.pdf" target="_blank">  <i class="fas fa-file fa-2x"></i>  </a>
             </li>
             </ul>
             
             
               </div>
+
+
+              <h4 style="text-align: center; font-family: 'Cinzel', serif;">Houston's Weather</h4>
+                  <p style="text-align: center;" id="date">11-23-19</p>
               <div class = "row">
-                <div class="col-md-12">
-              <h4 style="text-align: center;">Houston's Weather</h4>
-              <p style="text-align: center;" id="date">11-23-19</p>
-                  <h5 style="text-align: center;">DAY</h5>
-              <p style="text-align: center;" id ="icon"></p> 
-              <p style="text-align: center;" id ="iconPhrase"></p>
-              <hr>
-              <h5 style="text-align: center;">NIGHT</h5>
-              <p style="text-align: center;" id ="iconN"></p> 
-              <p style="text-align: center;" id ="iconPhraseN"></p>
-              <hr>
-              <p style="text-align: center;" id ="tempMin"></p>
-              <p style="text-align: center;" id ="temp"></p>
-              <hr>
-            </div>
-            </div>
-            <div class = "row">
-                <div class="col-md-12">
-             
                   
-              <p style="text-align: center;" id ="tempMinN"></p>
-              <p style="text-align: center;" id ="tempN"></p>
+                <div class="col-md-6">
+                   
+                  <h5 style="text-align: center; font-family: 'Caveat', cursive;">DAY</h5>
+              <p style="text-align: center;" id ="icon"></p> 
+              <p style="text-align: center; font-family: 'Satisfy', cursive;" id ="iconPhrase"></p>
+                </div>
+              <div class="col-md-6">
+              <h5 style="text-align: center; font-family: 'Caveat', cursive;">NIGHT</h5>
+              <p style="text-align: center;" id ="iconN"></p> 
+              <p style="text-align: center;font-family: 'Satisfy', cursive;" id ="iconPhraseN"></p>
+              </div>
+              <p style="text-align: center; font-family: 'Satisfy', cursive;" id ="tempMin"></p>
+              <p style="text-align: center; font-family: 'Satisfy', cursive;" id ="temp"></p>
+              <hr>
             </div>
             </div>
-          </div>
-        </div>
-    </div>
+              
+            
+            </div>
+            </div>
+       
+    
        
    <div class="col-md-10" >
      <div class="jumbotron jumbotron-fluid" style="background: url(./images/background.jpg); height: 500px;  " >
@@ -274,8 +275,8 @@
       const iconUrlN = `https://developer.accuweather.com/sites/default/files/${iconCodeN}-s.png`
       console.log(response);
       
-      $('#tempMin').text("LOW " + response.DailyForecasts[0].Temperature.Minimum.Value + " F");
-      $('#temp').text("HIGH " + response.DailyForecasts[0].Temperature.Maximum.Value + " F");
+      $('#tempMin').html("LOW " + response.DailyForecasts[0].Temperature.Minimum.Value +  "&#176" + " F ");
+      $('#temp').html("HIGH " + response.DailyForecasts[0].Temperature.Maximum.Value  +  "&#176" + " F");
       $('#iconPhrase').text(response.DailyForecasts[0].Day.IconPhrase);
       $('#icon').html("<img src='"  + iconUrl  + "'>")
 

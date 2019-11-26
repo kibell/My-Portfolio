@@ -222,3 +222,21 @@ clear: both;
 .fa-node{
     color: limegreen
 }
+
+.fab,  .fas , a{
+    color: rgb(13, 52, 116);
+    text-decoration: none;
+
+    border-radius: 50%;
+}
+
+a:hover 
+{
+     color:rgb(253, 218, 18); 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+p{
+    font-family: 'Cinzel', serif;
+}

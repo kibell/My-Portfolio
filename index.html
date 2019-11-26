@@ -85,7 +85,13 @@
             
             
               </div>
-              
+              <h5 style="text-align: center;">Houston's Weather</h5>
+              <div id ="icon">
+
+              </div>
+              <div id ="iconPhrase">
+
+                </div>
             </div>
           </div>
     </div>
@@ -110,7 +116,7 @@
     </div>
   </div>
   
-  <div class="col-md-3" style="background:rgba(255, 255, 255, 0.726); float: right; clear: both; margin-left: 25px;">
+  <aside class="col-md-3" style="background:rgba(255, 255, 255, 0.726); float: right; clear: both; margin-left: 25px; height: 400px;">
     <h1>Education</h1>
     <hr>
 
@@ -123,7 +129,11 @@
 
     <hr>
 
-  </div>
+  </aside>
+
+
+
+
 
 </div>
 
@@ -229,6 +239,32 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+     
+   
+      const queryURL = "http://dataservice.accuweather.com/forecasts/v1/daily/1day/351197?apikey=%20IeOsHUbDMuyIriwI6Ra2gWcG56IaA0Qn"
+      // IeOsHUbDMuyIriwI6Ra2gWcG56IaA0Qn
+     
+      $.ajax({
+      url: queryURL,
+      method: "GET"
+    }).then(function(response) {
+      const iconCode = response.DailyForecasts[0].Day.Icon
+      const iconUrl = `https://developer.accuweather.com/sites/default/files/0${iconCode}-s.png`
+      console.log(response);
+      console.log(response.DailyForecasts[0].Temperature.Maximum.Value);
+      $('#iconPhrase').text(response.DailyForecasts[0].Day.IconPhrase);
+      $('#icon').html("<img src='"  + iconUrl  + "'>")
+
+    });
+
+  // ---------------------------------------------------------
+  
+      
+      
+    </script>
+  
  </body>
 
 </html>

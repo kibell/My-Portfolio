@@ -88,7 +88,7 @@
               <div class = "row">
                 <div class="col-md-12">
               <h4 style="text-align: center;">Houston's Weather</h4>
-              <p id="date">11-23-19</p>
+              <p style="text-align: center;" id="date">11-23-19</p>
                   <h5 style="text-align: center;">DAY</h5>
               <p style="text-align: center;" id ="icon"></p> 
               <p style="text-align: center;" id ="iconPhrase"></p>
@@ -273,7 +273,7 @@
       const iconCodeN = response.DailyForecasts[0].Night.Icon
       const iconUrlN = `https://developer.accuweather.com/sites/default/files/${iconCodeN}-s.png`
       console.log(response);
-      $('#date').text(Date())
+      
       $('#tempMin').text("LOW " + response.DailyForecasts[0].Temperature.Minimum.Value + " F");
       $('#temp').text("HIGH " + response.DailyForecasts[0].Temperature.Maximum.Value + " F");
       $('#iconPhrase').text(response.DailyForecasts[0].Day.IconPhrase);
@@ -282,6 +282,14 @@
 
       $('#iconPhraseN').text(response.DailyForecasts[0].Night.IconPhrase);
       $('#iconN').html("<img src='"  + iconUrlN  + "'>")
+
+      n =  new Date();
+y = n.getFullYear();
+m = n.getMonth() + 1;
+d = n.getDate();
+document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
+
+
 
     });
 

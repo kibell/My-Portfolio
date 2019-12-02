@@ -117,7 +117,7 @@
     
        
    <div class="col-md-10" >
-     <div class="jumbotron jumbotron-fluid row" style="background: url(./images/background.jpg); height: 500px;  " >
+     <div class="jumbotron jumbotron-fluid row" style="background: url(./images/background.jpg);   " >
                     <h1 class="display-4"></h1>
                     
 
@@ -126,12 +126,13 @@
                     </div>
                     <div class="col-md-1"></div>
 
-                    <div style="background:rgba(255, 255, 255, 0.794); border:solid 7px; height:270px" class="col-md-4">
+                    <div style="background:rgba(255, 255, 255, 0.794); border:solid 7px;" class="col-md-4">
 
                       <h4 style="text-align: center; font-family: 'Caveat', cursive;">Houston's Weather</h4>
+                     
                   <p style="text-align: center;" id="date">11-23-19</p>
               <div class = "row">
-                  
+
                 <div class="col-md-5">
                    
                   <h5 style="text-align: center; font-family: 'Caveat', cursive;">DAY</h5>
@@ -167,7 +168,7 @@
     </div>
   </div>
   
-  <aside class="col-md-3" style="background:rgba(255, 255, 255, 0.726); float: right; clear: both; margin-left: 25px; height: 375px;">
+  <div class="col-md-3" style="background:rgba(255, 255, 255, 0.726); float: right; clear: both; margin-left: 25px; ">
     <h1 style="text-align: center;">Education</h1>
     <hr>
 
@@ -183,12 +184,28 @@
 
   
 
-  <div class="col-md-12"  style="background:rgba(255, 255, 255, 0.726); float: right; clear: both;margin-top: 25px ;height: 400px;">
+  <div class="col-md-12"  style="background:rgba(255, 255, 255, 0.726); float: right; clear: both;margin-top: 25px ;">
     <h1 style="text-align: center;">Skills</h1>
+    <p style="font-size: 15px; text-align: center;"> Click Icon to learn More</p>
+    <div class="col-md-12">
+    <i class="fab fa-git-alt fa-2x" style="margin: 5px"></i>
+    <i class="fab fa-html5 fa-2x" style="margin: 5px"></i>
+    <i class="fab fa-css3-alt fa-2x" style="margin: 5px"></i>
+    <i class="fab fa-js fa-2x" style="margin: 5px"></i>
+    <i class="fab fa-node-js fa-2x" style="margin: 5px"></i>
+    <i class="fab fa-bootstrap fa-2x" style="margin: 5px"></i>
+    <i class="fab fa-gripfire fa-2x" style="margin: 5px"></i>
+    <img src="./images/sql.png" style="width: 25px;">
+    <i class="fab fa-python fa-2x" style="margin: 5px"></i>
+    <i class="fas fa-language fa-2x" style="margin: 5px"></i>
+    </div>
     <hr>
+<div class="description">
+<h4 class="desTitle"></h4>
+<p class= "des" style="font-size: 15px ;"></p>
 
-    <img src="./images/bootcamp.png" style="width:90px; margin-top: 25px;">  University of Texas: Coding Bootcamp
-    <hr>
+</div>
+    
    
     
 
@@ -196,16 +213,16 @@
     <hr>
   </div>
 
-  </aside>
-
+ 
 
 
 
 
 </div>
+</div>
 
 
-<div   >
+<div >
     <h1 id="project" style="color: white; text-align: center;">Projects</h1>
     <div class="row">
       <div class="card col-md-3" >
@@ -310,7 +327,30 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript">
      
-   
+      $('.fa-html5 ').on('click',function() {
+        console.log("html")
+        $('.desTitle').text("HTML")
+        $('.des').text("Throughout my time as a Business Analyst I spent a fraction of my time Testing and making updates to the Benefits Portal Website. My knowledge of HTML increased with the education I have recieved at the UT coding academy.")
+      });
+
+      $('.fa-css3-alt').on('click',function() {
+        console.log("css")
+        $('.desTitle').text("CSS")
+        $('.des').text("My experience at the UT coding camp enhanced by abilities in CSS. Styling designs and having the free range of being creative is one of my favortie aspects of Web Development")
+      });
+
+      $('.fa-js').on('click',function() {
+        console.log("javaScript")
+        $('.desTitle').text("JavaScript")
+        $('.des').text("My experience at the UT coding camp enhanced by abilities in JavaScript. I have Project examples below that showcase some of my skills using this coding language.")
+      });
+
+      $('.fa-node-js').on('click',function() {
+        console.log("Node. JS")
+        $('.desTitle').text("NODE")
+        $('.des').text("My experience at the UT coding camp enhanced by abilities in Node. We enhanced our skills in Javascript learning Node. Project examples below.")
+      });
+      
       const queryURL = "https://dataservice.accuweather.com/forecasts/v1/daily/1day/351197?apikey=%20IeOsHUbDMuyIriwI6Ra2gWcG56IaA0Qn"
       // IeOsHUbDMuyIriwI6Ra2gWcG56IaA0Qn
      

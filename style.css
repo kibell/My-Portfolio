@@ -92,12 +92,7 @@ font-weight: 500px;
 }
 
 
-a:hover
-{
-    background: grey;
-    
 
-}
 
 img
 {
@@ -150,7 +145,7 @@ h3{
     transition: opacity .35s ease;
   }
 
-  .btn a {
+  .btn {
     
    
     text-align: center;
@@ -223,19 +218,19 @@ clear: both;
     color: limegreen
 }
 
-.fab,  .fas , a{
+.fab,  .fas {
     color: rgb(13, 52, 116);
     text-decoration: none;
 
     border-radius: 50%;
 }
-
+/* 
 a:hover 
 {
      color:rgb(253, 218, 18); 
      text-decoration:none; 
      cursor:pointer;  
-}
+} */
 
 p{
     font-family: 'Cinzel', serif;
@@ -265,8 +260,10 @@ color: orange;
     color: skyblue;
 }
 
-.navy{
-color: black;
+.navy a{
 text-decoration: none;
+color: black;
+font-family: 'Caveat', cursive;
+
 
 }

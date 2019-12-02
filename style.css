@@ -26,7 +26,7 @@ text-align: center;
 p
 {
     margin: 20px;
-    font-family: adobe-garamond-pro, serif;
+    font-family: 'Acme', sans-serif;
 
 font-weight: 400;
 font-size: 20px;
@@ -263,4 +263,10 @@ color: orange;
 
 .sql:hover{
     color: skyblue;
+}
+
+.navy{
+color: black;
+text-decoration: none;
+
 }

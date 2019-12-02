@@ -87,18 +87,19 @@
             
               </div>
 
-
-              <h4 style="text-align: center; font-family: 'Caveat', cursive;">Houston's Weather</h4>
+              <hr>
+              <!-- <h4 style="text-align: center; font-family: 'Caveat', cursive;">Houston's Weather</h4>
                   <p style="text-align: center;" id="date">11-23-19</p>
               <div class = "row">
                   
-                <div class="col-md-6">
+                <div class="col-md-5">
                    
                   <h5 style="text-align: center; font-family: 'Caveat', cursive;">DAY</h5>
               <p style="text-align: center;" id ="icon"></p> 
               <p style="text-align: center; font-family: 'Satisfy', cursive;" id ="iconPhrase"></p>
                 </div>
-              <div class="col-md-6">
+                <div class="col-md-1"></div>
+              <div class="col-md-5">
               <h5 style="text-align: center; font-family: 'Caveat', cursive;">NIGHT</h5>
               <p style="text-align: center;" id ="iconN"></p> 
               <p style="text-align: center;font-family: 'Satisfy', cursive;" id ="iconPhraseN"></p>
@@ -106,7 +107,7 @@
               <p style="text-align: center; font-family: 'Satisfy', cursive;" id ="tempMin"></p>
               <p style="text-align: center; font-family: 'Satisfy', cursive;" id ="temp"></p>
               <hr>
-            </div>
+            </div> -->
             </div>
               
             
@@ -116,14 +117,45 @@
     
        
    <div class="col-md-10" >
-     <div class="jumbotron jumbotron-fluid" style="background: url(./images/background.jpg); height: 500px;  " >
+     <div class="jumbotron jumbotron-fluid row" style="background: url(./images/background.jpg); height: 500px;  " >
                     <h1 class="display-4"></h1>
                     
-                    <div style="background:rgba(255, 255, 255, 0.726); margin-right: auto; margin-left: auto; height:300px; border:solid 7px; width: 50%;">
-                        <p class="lead" style="margin-top: 50px; font-size: 25px;">Courage is the most important of all the virtues, because without courage you can’t practice any other virtue consistently. You can practice any virtue erratically, but nothing consistently without courage.  – Maya Angelou</p>
 
+                    <div style="background:rgba(255, 255, 255, 0.794); border:solid 7px; " class="col-md-6">
+                        <p  style="margin-top: 50px; font-size: 25px;">Courage is the most important of all the virtues, because without courage you can’t practice any other virtue consistently. You can practice any virtue erratically, but nothing consistently without courage.  – Maya Angelou</p>
                     </div>
-      </div>
+                    <div class="col-md-1"></div>
+
+                    <div style="background:rgba(255, 255, 255, 0.794); border:solid 7px; height:270px" class="col-md-4">
+
+                      <h4 style="text-align: center; font-family: 'Caveat', cursive;">Houston's Weather</h4>
+                  <p style="text-align: center;" id="date">11-23-19</p>
+              <div class = "row">
+                  
+                <div class="col-md-5">
+                   
+                  <h5 style="text-align: center; font-family: 'Caveat', cursive;">DAY</h5>
+              <p style="text-align: center;" id ="icon"></p> 
+              <p style="text-align: center; font-family: 'Satisfy', cursive;" id ="iconPhrase"></p>
+                </div>
+                <div class="col-md-2"> 
+                  <p style="text-align: left; font-family: 'Satisfy', cursive; font-size: 15px;" id ="tempMin"></p>
+                  <p style="text-align: left; font-family: 'Satisfy', cursive; font-size: 15px;" id ="temp"></p>
+                </div>
+              <div class="col-md-5">
+              <h5 style="text-align: center; font-family: 'Caveat', cursive;">NIGHT</h5>
+              <p style="text-align: center;" id ="iconN"></p> 
+              <p style="text-align: center;font-family: 'Satisfy', cursive;" id ="iconPhraseN"></p>
+              </div>
+              <!-- <p style="text-align: center; font-family: 'Satisfy', cursive;" id ="tempMin"></p>
+              <p style="text-align: center; font-family: 'Satisfy', cursive;" id ="temp"></p> -->
+              <hr>
+            </div>
+                  </div>
+
+                    
+     
+   </div>
      
 <div  class="row">
   <div class="col-md-8" >
@@ -135,8 +167,8 @@
     </div>
   </div>
   
-  <aside class="col-md-3" style="background:rgba(255, 255, 255, 0.726); float: right; clear: both; margin-left: 25px; height: 400px;">
-    <h1>Education</h1>
+  <aside class="col-md-3" style="background:rgba(255, 255, 255, 0.726); float: right; clear: both; margin-left: 25px; height: 375px;">
+    <h1 style="text-align: center;">Education</h1>
     <hr>
 
     <img src="./images/bootcamp.png" style="width:90px; margin-top: 25px;">  University of Texas: Coding Bootcamp
@@ -148,6 +180,22 @@
 
     <hr>
 
+
+  
+
+  <div class="col-md-12"  style="background:rgba(255, 255, 255, 0.726); float: right; clear: both;margin-top: 25px ;height: 400px;">
+    <h1 style="text-align: center;">Skills</h1>
+    <hr>
+
+    <img src="./images/bootcamp.png" style="width:90px; margin-top: 25px;">  University of Texas: Coding Bootcamp
+    <hr>
+   
+    
+
+
+    <hr>
+  </div>
+
   </aside>
 
 
@@ -157,10 +205,10 @@
 </div>
 
 
-<div  style=" margin-left:25px;" >
+<div   >
     <h1 id="project" style="color: white; text-align: center;">Projects</h1>
     <div class="row">
-      <div class="card col-md-3" style=" margin: 55px;">
+      <div class="card col-md-3" >
         <img src="./images/meetme1).gif" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Meet me</h5>
@@ -170,8 +218,9 @@
           <a target="_blank" href="https://github.com/kibell/Meetme" class="btn code btn-warning">View Code</a>
         </div>
       </div>
+<div class="col-md-1"></div>
 
-      <div class="card col-md-3" style=" margin: 55px;">
+      <div class="card col-md-3" >
         <img src="./images/giphy API.gif" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Giphy API</h5>
@@ -180,8 +229,8 @@
           <a target="_blank" href="https://github.com/kibell/GiphyAPI" class="btn code btn-warning">View Code</a>
         </div>
       </div>
-
-      <div class="card col-md-3" style=" margin: 55px;">
+      <div class="col-md-1"></div>
+      <div class="card col-md-3" >
         <img src="./images/trivia.gif" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Trivia Game</h5>
@@ -195,7 +244,7 @@
     </div>
     <!-- -----------------new row -->
    <div class="row">
-    <div class="card col-md-3" style=" margin: 55px;">
+    <div class="card col-md-3" >
         <img src="./images/pokemon.gif" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Role Playing Game</h5>
@@ -208,8 +257,8 @@
         </div>
       </div>
     
-
-      <div class="card col-md-3" style=" margin: 55px;">
+      <div class="col-md-1"></div>
+      <div class="card col-md-3" >
         <img src="./images/Multi.gif" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Multi-Player RPS</h5>
@@ -222,8 +271,8 @@
         </div>
       </div>
 
-
-      <div class="card col-md-3" style=" margin: 55px;">
+      <div class="col-md-1"></div>
+      <div class="card col-md-3" >
         <img src="./images/guessing game gif.gif" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Number Guessing Game</h5>
@@ -270,19 +319,40 @@
       method: "GET"
     }).then(function(response) {
       const iconCode = response.DailyForecasts[0].Day.Icon
-      const iconUrl = `https://developer.accuweather.com/sites/default/files/0${iconCode}-s.png`
+      let iconUrl = `https://developer.accuweather.com/sites/default/files/${iconCode}-s.png`
       const iconCodeN = response.DailyForecasts[0].Night.Icon
-      const iconUrlN = `https://developer.accuweather.com/sites/default/files/${iconCodeN}-s.png`
+      let iconUrlN = `https://developer.accuweather.com/sites/default/files/${iconCodeN}-s.png`
       console.log(response);
       
       $('#tempMin').html("LOW " + response.DailyForecasts[0].Temperature.Minimum.Value +  "&#176" + " F ");
       $('#temp').html("HIGH " + response.DailyForecasts[0].Temperature.Maximum.Value  +  "&#176" + " F");
       $('#iconPhrase').text(response.DailyForecasts[0].Day.IconPhrase);
-      $('#icon').html("<img src='"  + iconUrl  + "'>")
+      // $('#icon').html("<img src='"  + iconUrl  + "'>")
 
 
       $('#iconPhraseN').text(response.DailyForecasts[0].Night.IconPhrase);
-      $('#iconN').html("<img src='"  + iconUrlN  + "'>")
+      // $('#iconN').html("<img src='"  + iconUrlN  + "'>")
+
+      if(iconCode < 10 ){
+        let iconUrl = `https://developer.accuweather.com/sites/default/files/0${iconCode}-s.png`
+        $('#icon').html("<img src='"  + iconUrl  + "'>")
+
+      } else {
+        let iconUrl = `https://developer.accuweather.com/sites/default/files/${iconCode}-s.png`
+        $('#icon').html("<img src='"  + iconUrl  + "'>")
+
+      }
+
+      if(iconCodeN < 10 ){
+        let iconUrlN = `https://developer.accuweather.com/sites/default/files/0${iconCodeN}-s.png`
+        $('#iconN').html("<img src='"  + iconUrlN  + "'>")
+
+      } else {
+        let iconUrlN = `https://developer.accuweather.com/sites/default/files/${iconCodeN}-s.png`
+        $('#iconN').html("<img src='"  + iconUrlN  + "'>")
+
+      }
+      
 
       n =  new Date();
 y = n.getFullYear();

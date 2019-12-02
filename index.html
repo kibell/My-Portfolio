@@ -172,10 +172,10 @@
     <h1 style="text-align: center;">Education</h1>
     <hr>
 
-    <img src="./images/bootcamp.png" style="width:90px; margin-top: 25px;">  University of Texas: Coding Bootcamp
+    <img src="./images/bootcamp.png" style="width:90px;" class="rounded mx-auto d-block"> <h5 style="text-align: center;">University of Texas: Coding Bootcamp </h5> <p style="text-align: center;">September 2019 - March 2020</p>
     <hr>
    
-    <img src="./images/umhb.jpg" style="width:90px; margin-top: 25px;">  University of Mary-Hardin Baylor
+    <img src="./images/umhb.jpg" style="width:90px;" class="rounded mx-auto d-block">  <h5 style="text-align: center;">University of Mary-Hardin Baylor</h5> <p style="text-align: center;">August 2010 - June 2015</p>
     
 
 
@@ -195,7 +195,7 @@
     <i class="fab fa-node-js fa-2x" style="margin: 5px"></i>
     <i class="fab fa-bootstrap fa-2x" style="margin: 5px"></i>
     <i class="fab fa-gripfire fa-2x" style="margin: 5px"></i>
-    <img src="./images/sql.png" style="width: 25px;">
+    <img src="./images/sql.png" class="sql" style="width: 25px;">
     <i class="fab fa-python fa-2x" style="margin: 5px"></i>
     <i class="fas fa-language fa-2x" style="margin: 5px"></i>
     </div>
@@ -350,6 +350,25 @@
         $('.desTitle').text("NODE")
         $('.des').text("My experience at the UT coding camp enhanced by abilities in Node. We enhanced our skills in Javascript learning Node. Project examples below.")
       });
+      
+      $('.fa-language').on('click',function() {
+        console.log("Spanish")
+        $('.desTitle').text("Language")
+        $('.des').text("I have been practicing Spanish for 3 years, I can communicate effectively in Spanish. I can read, write, and speak at an intermidate level. ")
+      });
+
+      $('.fa-git-alt').on('click',function() {
+        console.log("Terminal")
+        $('.desTitle').text("Git Bash/Terminal")
+        $('.des').text("Throughout the Bootcamp we have been utilizing Git Bash/Terminal for colloabrative projects and for commiting changes with our code to Git Hub. Take a look at my GitHub Account to see my commit history for each project" )
+      });
+
+      $('.sql').on('click',function() {
+        console.log("sql")
+        $('.desTitle').text("MicroSoft SQL")
+        $('.des').text("SQL is the foundation software that I use at Empyrean Benefits Solutions, We use SQL everyday for aggregating data for clients, building reports, and analyzing data for our vendors and clients" )
+      });
+
       
       const queryURL = "https://dataservice.accuweather.com/forecasts/v1/daily/1day/351197?apikey=%20IeOsHUbDMuyIriwI6Ra2gWcG56IaA0Qn"
       // IeOsHUbDMuyIriwI6Ra2gWcG56IaA0Qn

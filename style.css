@@ -204,22 +204,22 @@ clear: both;
 
 } */
 
-.fa-html5{
+.fa-html5:hover{
     color:orange
 }
 
-.fa-css3-alt{
+.fa-css3-alt:hover{
     color: skyblue;
 }
 
 .fa-js-square{
     color:darkgoldenrod
 }
-.fa-bootstrap{
+.fa-bootstrap:hover{
     color:purple
 }
 
-.fa-node{
+.fa-node:hover{
     color: limegreen
 }
 
@@ -239,4 +239,28 @@ a:hover
 
 p{
     font-family: 'Cinzel', serif;
+}
+
+.fa-node-js:hover{
+    color: green;
+}
+
+.fa-js:hover{
+    color:yellow
+}
+
+.fa-git-alt:hover{
+    color: tomato;
+}
+
+.fa-gripfire:hover{
+color: orange;
+}
+
+.fa-language:hover{
+    color: blue;
+}
+
+.sql:hover{
+    color: skyblue;
 }

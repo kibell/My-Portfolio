@@ -111,7 +111,7 @@ h3{
 
 .extend
 {
-    background-image: linear-gradient(to left, grey, black);
+    background-image: linear-gradient(to left, #2a58c3, black);
     padding-top: 7%;
     
 }
@@ -131,7 +131,7 @@ h3{
 
 .card-body{
     
-    background: cornflowerblue;
+    background: #5676c1;
 }
 .code{
     color: yellow
@@ -168,10 +168,7 @@ background: rgba(55, 84, 93, 0.664);
 transition:  0.5s ease;
 }
 
-.card:hover .card-img-top{
-    transition:  2.0s ease;
-    transform: scale(1.5);
-}
+
 
 /* .fab {
 margin: 20px;
@@ -233,7 +230,7 @@ a:hover
 } */
 
 p{
-    font-family: 'Cinzel', serif;
+    
 }
 
 .fa-node-js:hover{
@@ -266,4 +263,10 @@ color: black;
 font-family: 'Caveat', cursive;
 
 
+}
+
+.card-title{
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-weight: 800;
 }

@@ -40,7 +40,7 @@ div.container
     
     background:linear-gradient(to bottom,	var(--fifthCw), white );
     background-size:cover ;
-    
+
 }
 
 .secondSec .cv h1:hover, .secondSec .cv:hover{
@@ -76,14 +76,11 @@ div.container
 }
 
 
-.nameHead{
-    text-align: center;
-    margin: auto;
-}
 
 
 .myImg{
-  
+  width: 500px;
+  height: 100%;
 
 }
 

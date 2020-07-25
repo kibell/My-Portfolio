@@ -3,24 +3,19 @@
     --main-font: 'Fondamento', cursive;
     --body-font: 'Cabin', sans-serif;
     --grayishPrim: #af7c74;
-    --goldieSec:#b78876;
+    --goldieSec:#ded7cf;
     --third: 	#c99e87;
     --fourth: 	#d8e3e8;
-    --fifthCw: 	#d9b7a5;
+    --fifthCw: 	#ded7cf;
   }
 
-div.container
-{
-    
-    margin-top:25px;
-}
 
 .navSec{
    height: 15%;
 }
 
 .experience{
-    background:linear-gradient(to bottom,var(--third), white )
+    background:linear-gradient(to bottom,var(--goldieSec), white )
 
 }
 
@@ -48,8 +43,14 @@ div.container
 }
 
 .borderBox{
-    border: solid 2px black
+    border: solid 2.5px black
 }
+
+.headerSec .quote h1{
+
+    text-align: center;
+}
+
 
 
 .name, .education{
@@ -79,8 +80,8 @@ div.container
 
 
 .myImg{
-  width: 500px;
-  height: 100%;
+    width: 80%; text-align: center; margin-top:0%;
+
 
 }
 
@@ -97,73 +98,9 @@ div.container
 .cv{
     background:linear-gradient(to bottom,	var(--fourth), white )
 }
-footer
-{
-    color:white;
-    height:60px;
-    text-align: center;
-    line-height: 25px;
-    font-size: 18px;
-    margin-top: 5px;
-}
-p.footer
-{
-margin-top:15px;
-padding-top: 15px;
-text-align: center;
-
-}
-p
-{
-    margin: 20px;
-    font-family: 'Acme', sans-serif;
-
-font-weight: 400;
-font-size: 20px;
-font-style: italic;
-   
-    
-  
-}
-h1{
-    
-    font-family: 'Cinzel', serif;
-
-    padding:0px;
-    margin-left:10px;
- 
-   
-}
-#aboutMe{
-    
-    font-family: 'Cinzel', serif;
-
-    
-    font-weight: 800;
-    text-align: center;
-   
-}
-
-.navbar
-{
-    margin: 0%;
-    padding:0px;
-    background: #4aaaa500;
-}
 
 
-a.navbar-brand
-{
 
-margin:5px;
-
-padding:0px;
-}
-
-.bg-dark
-{
-   
-}
 
 
 h2{
@@ -174,51 +111,10 @@ h2{
     margin: 5px;
 }
 
-.nav-item
-{
-font-family: 'Cinzel', serif;
-font-weight: 500px;
-
-}
 
 
 
 
-img
-{
-  
-  
-   
-
-}
-
-h3{
-    position: absolute;
-   top:100px;
-  
-}
-
-
-.extend
-{
-    background-image: linear-gradient(to left, #2a58c3, black);
-    padding-top: 7%;
-    
-}
-
-
-
-.wave
-{
-    width: 100%;
-    background-image: linear-gradient(to left, #4aaaa5, black);
-    
-}
-
-.card-body{
-    
-    background: #5676c1;
-}
 .code{
     color: yellow
 }
@@ -315,9 +211,7 @@ a:hover
      cursor:pointer;  
 } */
 
-p{
-    
-}
+
 
 .fa-node-js:hover{
     color: green;
@@ -358,9 +252,9 @@ font-family: 'Caveat', cursive;
 }
 
 .icon img{
-    width: 200px;
+    width: 9rem ;
 }
 
 .iconN img{
-    width: 200px;
+    width: 9rem;
 }

@@ -16,413 +16,178 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/814d9b1ed3.js" crossorigin="anonymous"></script>
+   
+   <!------------------------------------------------------Scroll Script------------------------------------>
+   
+    <script src="https://unpkg.com/scrollreveal"></script>
+        <script>
+            ScrollReveal({ reset: true });
+        </script>
   </head>
 
 
-<body style="background: linear-gradient(to left, #2a58c3,black); margin: 0px; padding: 0px;">
-
-  <!-- <header class=>
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark" style="background: url(./images/background.jpg);" >
-      <a class="navbar-brand" > </a>
-      <h1 style="color: white ">Kitrick Bell</h1>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        
-        
-          <ul class="navbar-nav ml-auto" >
-
-          
-          <li class="nav-item" >
-            <a class="nav-link" href="index.html" style="color: beige" style= "font-family:'Cinzel', serif" >ABOUT ME</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html" style="color: beige">CONTACT</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html" style="color: beige">PORTFOLIO</a>
-          </li>
-          
-          </li>
-      </div>
-        </ul>
-        
-    </nav> -->
-   <header>
-    </header>
-<div class="row">
-
-    <div  class="col-md-2"> 
-        <div  style= " background: url(./images/background.jpg);">
+<body style="margin: 0px; padding: 0px;">
+   
+      <div class="row navSec">
+      <div class="col-md-3 borderBox name"> <h1 style="text-align:center; letter-spacing:15px; font-weight: 700;">Kitrick Bell</h1></div>
+      <div class="col-md-9 borderBox navColor">
+      <nav class="navbar navbar-expand-lg" style="position: relative; padding:14px 16px" >
+        <a class="navbar-brand" > </a>
+        <h1 style="color: white "></h1>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto" >
+  
             
-            <div class="card-body" style="height:100vmax; padding:0 ; " >
-             
-              <img src="images/Annotation 2019-09-28 171246.png" style="border-radius:50% ; width: 100px; margin-left: auto ; margin-right: auto; display: block" class="card-img-top" alt="...">
-              <h1 class="card-title" style="text-align: center; font-family: 'Acme', sans-serif;">Kitrick Bell</h1>
-              <h5 style="text-align: center; font-family: 'Acme', sans-serif;">  <i class="fas fa-laptop-code"></i>Business Systems Analyst</h5>
-              
-              
-                <hr>
-              <p class="navy" style="text-align: left;"><a href="#aboutMe"> <i class="far fa-address-card"></i>   About Me  </a></About></p>
-              <p class="navy" style="text-align: left;"> <a href="#project"> <i class="far fa-window-maximize"></i>  Projects</a></p>
-              <p class="navy" style="text-align: left;"> <a href="./contact.html"><i class="far fa-envelope"></i>  Contact Me </a></p>
-              <hr>
-              
-              
-              <hr>
-              
-              <div class="col-md-12">
-                <ul >
-              <li  >
-                <a style="margin: 25px;" href="https://github.com/kibell" target="_blank">  <i class="fab fa-github-alt fa-2x" > </i> </a>  
-              
-                
-              
-              <a style="margin: 25px;" href="https://www.linkedin.com/in/kitrick-bell-83221494/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
-            
-
-                
-              <a style="margin: 25px;" href="KBell Resume.pdf" target="_blank">  <i class="fas fa-file fa-2x"></i>  </a>
+            <li class="nav-item" >
+              <a class="nav-link" href="index.html" style="color: rgb(0, 0, 0)" style= "font-family:'Cinzel', serif" >ABOUT ME</a>
             </li>
-            </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html" style="color: rgb(0, 0, 0)">CONTACT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html" style="color: rgb(0, 0, 0)">PORTFOLIO</a>
+            </li>
             
-            
-              </div>
-
-              <hr>
-              <!-- <h4 style="text-align: center; font-family: 'Caveat', cursive;">Houston's Weather</h4>
-                  <p style="text-align: center;" id="date">11-23-19</p>
-              <div class = "row">
-                  
-                <div class="col-md-5">
-                   
-                  <h5 style="text-align: center; font-family: 'Caveat', cursive;">DAY</h5>
-              <p style="text-align: center;" id ="icon"></p> 
-              <p style="text-align: center; font-family: 'sans-serif', cursive;" id ="iconPhrase"></p>
-                </div>
-                <div class="col-md-1"></div>
-              <div class="col-md-5">
-              <h5 style="text-align: center; font-family: 'Caveat', cursive;">NIGHT</h5>
-              <p style="text-align: center;" id ="iconN"></p> 
-              <p style="text-align: center;font-family: 'sans-serif', cursive;" id ="iconPhraseN"></p>
-              </div>
-              <p style="text-align: center; font-family: 'sans-serif', cursive;" id ="tempMin"></p>
-              <p style="text-align: center; font-family: 'sans-serif', cursive;" id ="temp"></p>
-              <hr>
-            </div> -->
-            </div>
-              
-            
-            </div>
-            </div>
+            </li>
        
-    
-       
-   <div class="col-md-10" >
-     <div class="jumbotron jumbotron-fluid row" style="background: url(./images/background.jpg);   " >
-                    <h1 class="display-4"></h1>
-                    
-
-                    <div  class="col-md-6">
-                        <p  style="margin-top: 40px; font-size: 25px; font-family: 'Acme', sans-serif; ">Courage is the most important of all the virtues, because without courage you can’t practice any other virtue consistently. – Maya Angelou</p>
-                    </div>
-                    <div class="col-md-1"></div>
-
-                    <div style="background:rgba(255, 255, 255, 0.794); border:solid 7px;" class="col-md-4">
-
-                      <h4 style="text-align: center; font-family: 'Caveat', cursive;">Houston's Weather</h4>
-                     
-                  <p style="text-align: center;" id="date">11-23-19</p>
-              <div class = "row">
-
-                <div class="col-md-5">
-                   
-                  <h5 style="text-align: center; font-family: 'Caveat', cursive;">DAY</h5>
-              <p style="text-align: center;" id ="icon"></p> 
-              <p style="text-align: center; font-family: 'sans-serif', cursive;" id ="iconPhrase"></p>
-                </div>
-                <div class="col-md-2"> 
-                  <p style="text-align: left; font-family: 'sans-serif', cursive; font-size: 15px;" id ="tempMin"></p>
-                  <p style="text-align: left; font-family: 'sans-serif', cursive; font-size: 15px;" id ="temp"></p>
-                </div>
-              <div class="col-md-5">
-              <h5 style="text-align: center; font-family: 'Caveat', cursive;">NIGHT</h5>
-              <p style="text-align: center;" id ="iconN"></p> 
-              <p style="text-align: center; font-family: 'sans-serif', cursive;" id ="iconPhraseN"></p>
-              </div>
-              <!-- <p style="text-align: center; font-family: 'sans-serif', cursive;" id ="tempMin"></p>
-              <p style="text-align: center; font-family: 'sans-serif', cursive;" id ="temp"></p> -->
-              <hr>
-            </div>
-                  </div>
-
-                    
-     
-   </div>
-     
-<div  class="row">
-  <div class="col-md-8" >
-    <img src="./images/code.jpg" class="card-img-top" alt="..." style="height: 300px;" >
-    <div  style="background:rgba(255, 255, 255, 0.726);" >
-      <h1 id="aboutMe">About Me</h1>
-      <hr>
-      <p style="font-size: 27px; font-family: 'Acme', sans-serif;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi veniam sit quam nam natus illo repellat perferendis illum Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quidem omnis vero distinctio nemo, ut autem harum cum nisi excepturi, exercitationem quos ab consequuntur, dicta architecto? Maxime accusamus nulla animi iusto nesciunt consequuntur maiores omnis, facere culpa similique reiciendis et libero impedit. Nostrum sequi quos corrupti repellat, praesentium vitae soluta dicta delectus. Est cumque ad odio, enim iste quaerat soluta hic at voluptates numquam similique quasi et asperiores nam earum sequi vitae! Quidem, repellendus fuga!</p>
-    </div>
-  </div>
-  
-  <div class="col-md-3" style="background:rgba(255, 255, 255, 0.726); float: right; clear: both; margin-left: 25px; ">
-    <h1 style="text-align: center;">Education</h1>
-    <hr>
-
-    <img src="./images/bootcamp.png" style="width:90px;" class="rounded mx-auto d-block"> <h5 style="text-align: center;">University of Texas: Coding Bootcamp </h5> <p style="text-align: center;">September 2019 - March 2020</p>
-    <hr>
-   
-    <img src="./images/umhb.jpg" style="width:90px;" class="rounded mx-auto d-block">  <h5 style="text-align: center;">University of Mary-Hardin Baylor</h5> <p style="text-align: center;">August 2010 - June 2015</p>
-    
-
-
-    <hr>
-
-
-  
-
-  <div class="col-md-12"  style="background:rgba(255, 255, 255, 0.726); float: right; clear: both;margin-top: 25px ;">
-    <h1 style="text-align: center;">Skills</h1>
-    <p style="font-size: 15px; text-align: center;"> Click Icon to learn More</p>
-    <div class="col-md-12">
-    <i class="fab fa-git-alt fa-2x" style="margin: 5px"></i>
-    <i class="fab fa-html5 fa-2x" style="margin: 5px"></i>
-    <i class="fab fa-css3-alt fa-2x" style="margin: 5px"></i>
-    <i class="fab fa-js fa-2x" style="margin: 5px"></i>
-    <i class="fab fa-node-js fa-2x" style="margin: 5px"></i>
-    <i class="fab fa-bootstrap fa-2x" style="margin: 5px"></i>
-    <i class="fab fa-gripfire fa-2x" style="margin: 5px"></i>
-    <img src="./images/sql.png" class="sql" style="width: 25px;">
-    <i class="fab fa-python fa-2x" style="margin: 5px"></i>
-    <i class="fas fa-language fa-2x" style="margin: 5px"></i>
-    </div>
-    <hr>
-<div class="description">
-<h4 class="desTitle"></h4>
-<p class= "des" style="font-size: 15px ;"></p>
-
-</div>
-    
-   
-    
-
-
-    <hr>
-  </div>
-
- 
-
-
-
-
-</div>
-</div>
-
-
-<div >
-    <div class=" my-4">
-        <h1 id="project" style="color: white; text-align: center;">Projects</h1>
-        <hr class="my-4">
-    
-        <!--Carousel Wrapper-->
-        <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
-    
-          <!--Controls-->
-          <div class="controls-top">
-            <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left fa-2x"></i></a>
-            <a class="btn-floating" style="float: right;" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right fa-2x"></i></a>
-          </div>
-          <!--/.Controls-->
-    
-          <!--Indicators-->
-          <ol class="carousel-indicators">
-            <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
-            <li data-target="#multi-item-example" data-slide-to="1"></li>
-            <li data-target="#multi-item-example" data-slide-to="2"></li>
-          </ol>
-          <!--/.Indicators-->
-    
-          <!--Slides-->
-          <div class="carousel-inner" role="listbox">
-    
-            <!--First slide-->
-            <div class="carousel-item active">
-    
-              <div class="row">
-                <div class="col-md-4">
-                  <div class="card mb-2">
-                      <img src="./images/meetme1).gif" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Meet me</h5>
-                        <p class="card-text"> My co developer and I created an app that finds the Mid-point between two locations and displays the places within a radius of the area </p>
-                       
-                        <a target="_blank" href="https://kibell.github.io/Meetme/" class="btn btn-primary">Visit Site</a>
-                        <a target="_blank" href="https://github.com/kibell/Meetme" class="btn code btn-warning">View Code</a>
-                    </div>
-                  </div>
-                </div>
-    
-                <div class="col-md-4 clearfix  d-md-block">
-                  <div class="card mb-2">
-                      <img src="./images/giphy API.gif" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Giphy API</h5>
-                        <p class="card-text">Introduction to using APIs</p>
-                        <a target="_blank" href="https://kibell.github.io/GiphyAPI/" class="btn btn-primary">Visit Site</a>
-                        <a target="_blank" href="https://github.com/kibell/GiphyAPI" class="btn code btn-warning">View Code</a>
-                    </div>
-                  </div>
-                </div>
-    
-                <div class="col-md-4 clearfix  d-md-block">
-                  <div class="card mb-2">
-                      <img src="./images/trivia.gif" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Trivia Game</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                          card's content.</p>
-                        <a target="_blank" href="https://kibell.github.io/Trivia-Game-/" class="btn btn-primary">Visit Site</a>
-                        <a target="_blank" href="https://github.com/kibell/Trivia-Game-" class="btn code btn-warning">View
-                          Code</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-    
-            </div>
-            <!--/.First slide-->
-    
-            <!--Second slide-->
-            <div class="carousel-item">
-    
-              <div class="row">
-                <div class="col-md-4">
-                  <div class="card mb-2">
-                      <img src="./images/pokemon.gif" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Role Playing Game</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                          card's content.</p>
-                        <a target="_blank" href="https://kibell.github.io/pokemon-rpg-game/" class="btn btn-primary">Visit
-                          Site</a>
-                        <a target="_blank" href="https://github.com/kibell/pokemon-rpg-game" class="btn code btn-warning">View
-                          Code</a>
-                    </div>
-                  </div>
-                </div>
-    
-                <div class="col-md-4 clearfix  d-md-block">
-                  <div class="card mb-2">
-                      <img src="./images/Multi.gif" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Multi-Player RPS</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                          card's content.</p>
-                        <a target="_blank" href="https://kibell.github.io/RPS-Multiplayer/" class="btn btn-primary">Visit
-                          Site</a>
-                        <a target="_blank" href="https://github.com/kibell/RPS-Multiplayer" class="btn code btn-warning">View
-                          Code</a>
-                    </div>
-                  </div>
-                </div>
-    
-                <div class="col-md-4 clearfix d-md-block">
-                  <div class="card mb-2">
-                      <img src="./images/guessing game gif.gif" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Number Guessing Game</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                          card's content.</p>
-                        <a target="_blank" href="https://kibell.github.io/Number-Guess-Game/" class="btn btn-primary">Visit
-                          Site</a>
-                        <a target="_blank" href="https://github.com/kibell/Number-Guess-Game" class="btn code">View Code</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-    
-            </div>
-            <!--/.Second slide-->
-    
-            <!--Third slide-->
-            <div class="carousel-item">
-    
-              <div class="row">
-                <div class="col-md-4">
-                  <div class="card mb-2">
-                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(53).jpg"
-                      alt="Card image cap">
-                    <div class="card-body">
-                      <h4 class="card-title">Card title</h4>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                      <a class="btn btn-primary">Button</a>
-                    </div>
-                  </div>
-                </div>
-    
-                <div class="col-md-4 clearfix d-md-block">
-                  <div class="card mb-2">
-                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(45).jpg"
-                      alt="Card image cap">
-                    <div class="card-body">
-                      <h4 class="card-title">Card title</h4>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                      <a class="btn btn-primary">Button</a>
-                    </div>
-                  </div>
-                </div>
-    
-                <div class="col-md-4 clearfix d-md-block">
-                  <div class="card mb-2">
-                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(51).jpg"
-                      alt="Card image cap">
-                    <div class="card-body">
-                      <h4 class="card-title">Card title</h4>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                      <a class="btn btn-primary">Button</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-    
-            </div>
-            <!--/.Third slide-->
-    
-          </div>
-          <!--/.Slides-->
-    
+          </ul>
         </div>
-        <!--/.Carousel Wrapper-->
-    
-    
-      </div>
-
-  
-      </div>
+      </nav>
     </div>
-</div>
+    </div>
 
-</div>
-</div>
- 
+<!-------new Section-->
+<div class="row headerSec">
+  
+  <div class="col-md-5 myPic borderBox" >
+   <img src="./images/Copy of Untitled.png" class="myImg" alt="">
+  </div>
 
 
+  <div class="col-md-4 quote borderBox" >
+   <h1>something here</h1>
+ </div>
+
+ <div class="col-md-3 RandomPic borderBox weather" >
+   <!----------------------------------------Weather API----------------------------------->
 
    
+   <h4 style="text-align: center; font-weight: 800; margin-top: 15px; ">Houston's Weather</h4>
+ 
+   <p style="text-align: center;" id="date">11-23-19</p>
+   
+
+ <div class="row">
+  
+   <div class="col-md-6">
+<h5 style="text-align: center; clear: both; font-weight: 800;" >DAY</h5>
+<div class="icon"></div>
+<p  id ="iconPhrase" style="text-align: center;"></p>
+<p style="text-align: center; clear: both" id ="tempMin"></p>
+</div>
+
+<div class="col-md-6">
+<h5 style="text-align: center; clear: both; font-weight: 800;">NIGHT</h5>
+<div class="iconN"></div>
+<p style="text-align: center;" id ="iconPhraseN"></p>
+<p style="text-align: center;" id ="temp"></p>
+</div>
+
+
+<!-- <p style="text-align: center; font-family: 'sans-serif', cursive;" id ="tempMin"></p>
+<p style="text-align: center; font-family: 'sans-serif', cursive;" id ="temp"></p> -->
+
+</div>
+</div>
+</div>
+
+<!---New Section ---------------------->
+<div class="row secondSec">
+    
+  <div class="col-md-3 cv borderBox" >
+    
+   <img src="./images/resume.png" class="" alt="">
+   <h1 style="text-align: center;  opacity: 0;">
+    Download my Resume </h1>
+  </div>
+
+
+  <div class="col-md-5 experience borderBox" >
+   <h1 style="text-align: center;">Experience</h1>
+ </div>
 
 
 
 
+ <div class="col-md-4 weddingPic borderBox " >
+<img src="./images/wedding.png" style="width: 100%; height: 100%;" alt="">
+ </div>
+</div>
+
+<!---New Section ---------------------->
+<div class="row thirdSec">
+    
+  <div class="col-md-5 education borderBox" >
+    
+ 
+   <h1 style="text-align: center;">Education</h1>
+  </div>
+
+
+  <div class="col-md-4  borderBox" >
+   
+ </div>
+
+
+
+
+ <div class="col-md-3 skills borderBox " >
+<img src="./images/wedding.png" style="width: 100%; height: 100%;" alt="">
+ </div>
+</div>
+
+
+<!---New Section ---------------------->
+<div class="row forthSec">
+    
+  <div class="col-md-4 education borderBox" >
+    
+ 
+   <h1 style="text-align: center;">Education</h1>
+  </div>
+
+
+  <div class="col-md-4  borderBox" >
+   
+ </div>
+
+
+
+
+ <div class="col-md-4 skills borderBox " >
+<img src="./images/wedding.png" style="width: 100%; height: 100%;" alt="">
+ </div>
+</div>
+
+
+
+
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+       ScrollReveal().reveal('.navSec', {distance:'-100px' ,duration:500, delay:300})
+        ScrollReveal().reveal('.headerSec', {distance:'200px' ,duration:4500,delay:300})
+        ScrollReveal().reveal('.secondSec', {distance:'200px' ,duration:4500, delay:300,})
+        ScrollReveal().reveal('.thirdSec', {distance:'200px' ,duration:4500,delay:300})
+    </script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
@@ -488,8 +253,8 @@
     }).then(function(response) {
       const iconCode = response.DailyForecasts[0].Day.Icon
       let iconUrl = `https://developer.accuweather.com/sites/default/files/${iconCode}-s.png`
-      const iconCodeN = response.DailyForecasts[0].Night.Icon
-      let iconUrlN = `https://developer.accuweather.com/sites/default/files/${iconCodeN}-s.png`
+      const iconN = response.DailyForecasts[0].Night.Icon
+      let iconUrlN = `https://developer.accuweather.com/sites/default/files/${iconN}-s.png`
       console.log(response);
       
       $('#tempMin').html("LOW " + response.DailyForecasts[0].Temperature.Minimum.Value +  "&#176" + " F ");
@@ -501,25 +266,189 @@
       $('#iconPhraseN').text(response.DailyForecasts[0].Night.IconPhrase);
       // $('#iconN').html("<img src='"  + iconUrlN  + "'>")
 
-      if(iconCode < 10 ){
-        let iconUrl = `https://developer.accuweather.com/sites/default/files/0${iconCode}-s.png`
-        $('#icon').html("<img src='"  + iconUrl  + "'>")
+switch(iconCode){
+  case 1 :iconCode
+  $('.icon').html("<img src='https://media.giphy.com/media/iIkWAGpkp5ANahU8CC/giphy.gif'>")
+  break
 
-      } else {
-        let iconUrl = `https://developer.accuweather.com/sites/default/files/${iconCode}-s.png`
-        $('#icon').html("<img src='"  + iconUrl  + "'>")
+  case 2 :iconCode
+  $('.icon').html("<img src='https://media.giphy.com/media/3ov9jLYWb4zCjGfqIE/giphy.gif'>")
+  break
 
-      }
+  case 3 :iconCode
+  $('.icon').html("<img src= 'https://media.giphy.com/media/3ov9jLYWb4zCjGfqIE/giphy.gif'>")
+  break
 
-      if(iconCodeN < 10 ){
-        let iconUrlN = `https://developer.accuweather.com/sites/default/files/0${iconCodeN}-s.png`
-        $('#iconN').html("<img src='"  + iconUrlN  + "'>")
+  case 4 :iconCode
+  $('.icon').html("<img src='https://media.giphy.com/media/3ov9jLYWb4zCjGfqIE/giphy.gif'>")
+  break
 
-      } else {
-        let iconUrlN = `https://developer.accuweather.com/sites/default/files/${iconCodeN}-s.png`
-        $('#iconN').html("<img src='"  + iconUrlN  + "'>")
+  case 5 :iconCode
+  $('.icon').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
+  break
 
-      }
+  case 6 :iconCode
+  $('.icon').html("<img src='https://media.giphy.com/media/cOJbD5FJCMRbFJdjSe/giphy.gif'>")
+  break
+
+  case 7 :iconCode
+  $('.icon').html("<img src='https://media.giphy.com/media/cOJbD5FJCMRbFJdjSe/giphy.gif'>")
+  break
+  case 8 :iconCode
+  $('.icon').html("<img src='https://media.giphy.com/media/cOJbD5FJCMRbFJdjSe/giphy.gif'>")
+  break
+  case 9 :iconCode
+  $('.icon').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
+  break
+  case 10 :iconCode
+  $('.icon').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
+  break
+
+  case 11 :iconCode
+  $('.icon').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
+  break
+
+  case 12 :iconCode
+  $('.icon').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
+  break
+
+  case 13 :iconCode
+  $('.icon').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
+  break
+
+  case 14 :iconCode
+  $('.icon').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
+  break
+
+  case 15 :iconCode
+  $('.icon').html("<img src='https://media.giphy.com/media/hWSMcav8Cr9yHJpS3q/giphy.gif'>")
+  break
+
+  case 16 :iconCode
+  $('.icon').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
+  break
+
+  case 17 :iconCode
+  $('.icon').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
+  break
+
+  case 18 :iconCode
+  $('.icon').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
+  break
+
+  case 19 :iconCode
+  $('.icon').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
+  break
+
+  default:
+ 
+  $('.icon').html("<img src='https://media.giphy.com/media/iIkWAGpkp5ANahU8CC/giphy.gif'>")
+  break
+
+}
+
+switch(iconN){
+  case 33 :iconN
+  $('.iconN').html("<img src='https://media.giphy.com/media/xT9Igr21uuBKoANjck/giphy.gif'>")
+  break
+
+  case 2 :iconN
+  $('.iconN').html("<img src='https://media.giphy.com/media/3ov9jLYWb4zCjGfqIE/giphy.gif'>")
+  break
+
+  case 3 :iconN
+  $('.iconN').html("<img src= 'https://media.giphy.com/media/3ov9jLYWb4zCjGfqIE/giphy.gif'>")
+  break
+
+  case 4 :iconN
+  $('.iconN').html("<img src='https://media.giphy.com/media/3ov9jLYWb4zCjGfqIE/giphy.gif'>")
+  break
+
+  case 5 :iconN
+  $('.iconN').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
+  break
+
+  case 6 :iconN
+  $('.iconN').html("<img src='https://media.giphy.com/media/cOJbD5FJCMRbFJdjSe/giphy.gif'>")
+  break
+
+  case 7 :iconN
+  $('.iconN').html("<img src='https://media.giphy.com/media/cOJbD5FJCMRbFJdjSe/giphy.gif'>")
+  break
+  case 8 :iconN
+  $('.iconN').html("<img src='https://media.giphy.com/media/cOJbD5FJCMRbFJdjSe/giphy.gif'>")
+  break
+  case 9 :iconN
+  $('.iconN').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
+  break
+  case 10 :iconN
+  $('.iconN').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
+  break
+
+  case 11 :iconN
+  $('.iconN').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
+  break
+
+  case 12 :iconN
+  $('.iconN').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
+  break
+
+  case 13 :iconN
+  $('.iconN').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
+  break
+
+  case 14 :iconN
+  $('.iconN').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
+  break
+
+  case 15 :iconN
+  $('.iconN').html("<img src='https://media.giphy.com/media/hWSMcav8Cr9yHJpS3q/giphy.gif'>")
+  break
+
+  case 16 :iconN
+  $('.iconN').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
+  break
+
+  case 17 :iconN
+  $('.iconN').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
+  break
+
+  case 18 :iconN
+  $('.iconN').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
+  break
+
+
+  case 19 :iconN
+  $('.iconN').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
+  break
+
+  default:
+ 
+  $('.iconN').html("<img src='https://media.giphy.com/media/xT9Igr21uuBKoANjck/giphy.gif'>")
+  break
+
+
+}
+
+      // if(iconCode < 10 ){
+      //   let iconUrl = `https://developer.accuweather.com/sites/default/files/0${iconCode}-s.png`
+      //   $('#icon').html("<img src='"  + iconUrl  + "'>")
+
+      // } else {
+      //   let iconUrl = `https://developer.accuweather.com/sites/default/files/${iconCode}-s.png`
+      //   $('#icon').html("<img src='"  + iconUrl  + "'>")
+
+      // }
+
+      // if(iconCodeN < 10 ){
+      //   let iconUrlN = `https://developer.accuweather.com/sites/default/files/0${iconCodeN}-s.png`
+      //   $('#iconN').html("<img src='"  + iconUrlN  + "'>")
+
+      // } else {
+      //   let iconUrlN = `https://developer.accuweather.com/sites/default/files/${iconCodeN}-s.png`
+      //   $('#iconN').html("<img src='"  + iconUrlN  + "'>")
+
+      // }
       
 
       n =  new Date();

@@ -1,5 +1,13 @@
 
-
+:root{
+    --main-font: 'Fondamento', cursive;
+    --body-font: 'Cabin', sans-serif;
+    --grayishPrim: #af7c74;
+    --goldieSec:#b78876;
+    --third: 	#c99e87;
+    --fourth: 	#d8e3e8;
+    --fifthCw: 	#d9b7a5;
+  }
 
 div.container
 {
@@ -7,6 +15,91 @@ div.container
     margin-top:25px;
 }
 
+.navSec{
+   height: 15%;
+}
+
+.experience{
+    background:linear-gradient(to bottom,var(--third), white )
+
+}
+
+.cv,.weather{
+    transition: 1s ease;
+}
+
+.cv:hover, .weather:hover{
+   
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+
+}
+.weddingPic{
+    
+    background:linear-gradient(to bottom,	var(--fifthCw), white );
+    background-size:cover ;
+    
+}
+
+.secondSec .cv h1:hover, .secondSec .cv:hover{
+    opacity: 1;
+}
+
+.borderBox{
+    border: solid 2px black
+}
+
+
+.name, .education{
+   
+    background:linear-gradient(to bottom, var(--goldieSec), white)
+}
+
+.navSec ul li {
+    font-size: 25px;
+}
+
+.navColor{
+    
+    background:linear-gradient(to bottom, var(--fourth), white )
+}
+
+.myPic{
+    background:linear-gradient(to bottom,	var(--fifthCw), white )
+}
+
+.quote{
+   
+    background:linear-gradient( to top, var(--fourth), white) ;
+}
+
+
+.nameHead{
+    text-align: center;
+    margin: auto;
+}
+
+
+.myImg{
+  
+
+}
+
+.weather{
+    background-image: url(./images/feathersite\ theme.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    font-family: 'Cinzel', serif;
+    font-weight: 800;
+
+}
+
+.cv{
+    background:linear-gradient(to bottom,	var(--fourth), white )
+}
 footer
 {
     color:white;
@@ -58,7 +151,7 @@ h1{
 {
     margin: 0%;
     padding:0px;
-    background: #4aaaa5;
+    background: #4aaaa500;
 }
 
 
@@ -72,7 +165,7 @@ padding:0px;
 
 .bg-dark
 {
-    background-image: linear-gradient(to left  , grey, black);
+   
 }
 
 
@@ -116,11 +209,7 @@ h3{
     
 }
 
-.quote
-{
-    color:cornflowerblue;
-    
-}
+
 
 .wave
 {
@@ -269,4 +358,12 @@ font-family: 'Caveat', cursive;
     text-align: center;
     font-family: 'Cinzel', serif;
     font-weight: 800;
+}
+
+.icon img{
+    width: 200px;
+}
+
+.iconN img{
+    width: 200px;
 }

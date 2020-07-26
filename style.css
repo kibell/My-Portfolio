@@ -23,19 +23,25 @@
     transition: 1s ease;
 }
 
-.cv:hover, .weather:hover{
-   
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-    transition: 1s ease;
-
+.skills{
+    background-color: black;
+    color: white;
 }
+
 .weddingPic{
     
     background:linear-gradient(to bottom,	var(--fifthCw), white );
     background-size:cover ;
 
+}
+
+.project{
+    background-image: url(./images/project.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+    
 }
 
 .secondSec .cv h1:hover, .secondSec .cv:hover{
@@ -74,6 +80,7 @@
 .quote{
    
     background:linear-gradient( to top, var(--fourth), white) ;
+
 }
 
 
@@ -86,7 +93,7 @@
 }
 
 .weather{
-    background-image: url(./images/feathersite\ theme.gif);
+    background-image: url(./images/houston.png);
     background-repeat: no-repeat;
     background-size: cover;
     color: black;
@@ -100,9 +107,22 @@
 }
 
 
+.quote h1{
+    width: 80%; text-align: center; margin-top:30%;
+}
 
+.quote p{
+    font-size: 25px;
+    margin: 0rem 10rem;
+}
 
+.quote a{
+    font-size: 25px;
+    margin: 0rem 5rem ;
+    
+    text-decoration: none;
 
+}
 h2{
     font-family: 'Cinzel', serif;
     font-weight: bold;
@@ -113,7 +133,20 @@ h2{
 
 
 
+.emp{
+    width: 15rem;
+    border-radius: 100%;
+    text-align: center;
+    margin: auto;
+    height: 15rem;
+}
 
+.logix{
+    width: 15rem;
+    text-align: center;
+    margin: auto;
+    height: 15rem;
+}
 
 .code{
     color: yellow

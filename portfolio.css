@@ -1,92 +1,103 @@
 body{
+
+    background-image:linear-gradient(to bottom, #0a192f, #091c38);
+    background-repeat: no-repeat;
+    background-size: cover;
    
 }
 
-footer
-{
-    color:white;
-    height:60px;
-    text-align: center;
-    line-height: 25px;
-    font-size: 18px;
-    margin-top: 5px;
-}
-p.footer
-{
-margin-top:15px;
-padding-top: 15px;
-
-}
-
-img{
-
-    margin: 5px;
-    margin-bottom: 20px;
-    
-
-}
-p
-{
-    margin: 10px;
-    font-family: 'Merriweather', serif;
-}
-h1{
-    height:100%;
-    font-family: 'Cinzel', serif;
-   background: #4aaaa5;
-    padding:0px;
-    margin:0px;
-   
-}
-
-.navbar
-{
-    margin: 0%;
-    padding:0px;
+:root{
+    --main-text:#8892b0 ;
+    --theme-color: #0a254e;
+    --highlights: #50ccb4;
+    --bold-text: #bec8e7;
+    --main-font: 'Share Tech Mono', monospace;
 }
 
 
-a.navbar-brand
-{
-background: #4aaaa5;
-margin:0px;
-padding:0px;
-}
-
-
-.a .nav-link
-{
-    color:blue;
-    font-family: 'Cinzel', serif;
-}
-
-h2{
-    font-family: 'Cinzel', serif;
+.nav-item{
+    letter-spacing: 4px;
     font-weight: bold;
-    text-align: center;
-    box-shadow: 5px 5px #777;
-}
-
-
-
-h3{
-    position: absolute;
-    bottom:20px;
-    background: #4aaaa5;
-    color:white;
-    font-family: 'Cinzel', serif;
-    width: 220px;
-    padding:10px;
-}
-
-a:hover
-{
-    background: grey;
+    font-size: 20px;
     
+    margin: 10px;
+    font-family: var(--main-font);
+  
+}
+
+p{
+    font-family: var(--main-font);
+}
+
+.nav-link{
+color:var(--main-text);
+font-weight: 500;
+}
+
+.nav-link:hover{
+
+    color:var(--highlights)
+}
+.highlight{
+    color: var(--highlights);
+    letter-spacing: 0px;
+    margin-right: 12px;
+}
+
+.navbar{
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0), var(--theme-color)) ;
+}
+
+
+.beginning{
+    height: 100vh;
+
 
 }
 
-h3:hover
-{
-    background: #777;
+.gt{
+    
+    margin-top: 10rem;
+}
+
+.name{
+    color: var(--bold-text);
+    font-family: var(--main-font);
+    font-size: 110px;
+}
+
+.beginning h3{
+    color: var(--main-text );
+    font-size: 64px;
+}
+
+.beginning h5{
+    color: var(--main-text );
+    letter-spacing: 5px;
+    font-size: 20px;
+
+}
+
+.theme-btn{
+    background-color: rgba(240, 248, 255, 0);
+    color: var(--highlights);
+    border: solid var(--highlights) 2px;
+    width: 150px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+.sideBar{
+    position: fixed; /* Make the sidebar immovable*/
+z-index: 1; /* Side bar stays at the top */
+display: flex;/* defines flexbox */
+        flex-direction: column;/* top to bottom */
+        justify-content: space-between;
+
+
+}
+
+.fab{
+    margin-left: 25px;
+    
 }

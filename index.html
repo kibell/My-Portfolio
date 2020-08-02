@@ -1,17 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
   <title>Portfolio</title>
   <link rel="stylesheet" type="text/css" href="reset.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="portfolio.css">
   <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Acme|Lobster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.typekit.net/xxl3zrb.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -23,273 +20,83 @@
         <script>
             ScrollReveal({ reset: true });
         </script>
-  </head>
 
+<nav class="navbar navbar-expand-lg  ">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav ">
+      <li class="nav-item active">
+        <a class="nav-link" href="#"><span class="highlight">01</span>Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><span class="highlight">02</span>Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><span class="highlight">03</span>Pricing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#"><span class="highlight">04</span>Disabled</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 
+</head>
 <body>
-   
-      <div class="row navSec">
-      <div class="col-md-3 borderBox name hoverAll"> <h1 style="text-align:center; letter-spacing:10px; font-weight: 700;">Kitrick Bell</h1></div>
-      <div class="col-md-9 borderBox navColor">
-      <nav class="navbar navbar-expand-lg" style="position: relative; padding:14px 16px" >
-        <a class="navbar-brand" > </a>
-        <h1 style="color: white "></h1>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"><i class="fas fa-compress"></i></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto" >
-  
-            
-            <li class="nav-item" >
-              <a class="nav-link" href="index.html" style="color: rgb(0, 0, 0)" style= "font-family:'Cinzel', serif" >ABOUT ME</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html" style="color: rgb(0, 0, 0)">CONTACT</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html" style="color: rgb(0, 0, 0)">PORTFOLIO</a>
-            </li>
-            
-            </li>
-       
-          </ul>
-        </div>
-      </nav>
-    </div>
-    </div>
-
-<!-------new Section-->
-
-<div class="row headerSec">
-  
-  <div class="col-md-5 myPic borderBox hoverAll" >
- 
-   <img src="./images/kb.png" class="myImg" alt="">
-   
+  <div class="sideBar" >
+    <div class="row">
+    <i class="fab fa-twitter fa-3x"></i>
+  </div>
+  <div class="row">
+    <i class="fab fa-github-alt fa-3x"></i>
+  </div> 
   </div>
 
-
-  <div class="col-md-4 quote borderBox hoverAll" >
-   <h1>Hello, Im Kitrick</h1>
-   <p>Lorem ipsum dolor sit amet perspiciatis provident. </p>
-   <br>
-
-   
-   <a href="">About me</a>
- </div>
-
- <div class="col-md-3 borderBox weather" >
-   <!----------------------------------------Weather API----------------------------------->
-
-   
-   <h4 style="text-align: center; font-weight: 800; margin-top: 15px; ">Houston's Weather</h4>
- 
-   <p style="text-align: center;" id="date">11-23-19</p>
-   
-
- <div class="row">
   
-   <div class="col-md-6">
-<h5 style="text-align: center; clear: both; font-weight: 800;" >DAY</h5>
-<div class="icon"></div>
-<p  id ="iconPhrase" style="text-align: center;"></p>
-<p style="text-align: center; clear: both" id ="tempMin"></p>
+<section class="beginning">
+  
+  
 </div>
-
-<div class="col-md-6">
-<h5 style="text-align: center; clear: both; font-weight: 800;">NIGHT</h5>
-<div class="iconN"></div>
-<p style="text-align: center;" id ="iconPhraseN"></p>
-<p style="text-align: center;" id ="temp"></p>
-</div>
-
-
-<!-- <p style="text-align: center; font-family: 'sans-serif', cursive;" id ="tempMin"></p>
-<p style="text-align: center; font-family: 'sans-serif', cursive;" id ="temp"></p> -->
-
-</div>
-</div>
-</div>
-
-<!---New Section ---------------------->
-<div class="row secondSec">
-    
-  <div class="col-md-3 cv borderBox" >
-    
-   <img src="./images/resume.png" class="" alt="">
-   <h1 style="text-align: center;  opacity: 0;">
-    Download my Resume </h1>
-  </div>
-
-
-  <div class="col-md-5 experience borderBox hoverAll" >
-    <h1 style="text-align: center; margin-top: 10rem; font-size: 55px; ">Experience</h1>
-   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
-   
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="d-block emp " src="./images/emp.gif" alt="First slide">
-        <h4 style="text-align: center;">Business Systems Analyst</h4>
-        <h5 style="text-align: center;">MAY 2018 - CURRENT</h5>
-        <ul style="text-align: center;">
-          <li>My Job is to analyze current business processes and make recommendations for improvement. 
-            I improve training and operational procedures to increase productivity. I specialize in relational databases such as  SQL to query reports 
-            for analytical data for our clients.
-            </li>
-
-        </ul>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 gt">
+      <p class="highlight ">¿Como Estas? My Name is </p>
+      <h1 class="name">Kitrick Bell</h1>
+      <h3>I am a Full Stack Developer.</h3>
       <br>
-      </div>
-      <div class="carousel-item">
-        <img class="d-block logix " src="./images/logix-logo.png" alt="Second slide">
-        <h4 style="text-align: center;">Liasion Specialist/ Lab Technician</h4>
-        <h5 style="text-align: center;">MAY 2018 - CURRENT</h5>
-        <ul style="text-align: center;">
-          <li>My Job is to analyze current business processes and make recommendations for improvement. 
-            I improve training and operational procedures to increase productivity. I specialize in relational databases such as  SQL to query reports 
-            for analytical data for our clients.
-            </li>
+ 
+      </h5>
 
-        </ul>
-        <br>
-      </div>
-      <div class="carousel-item">
-        
-        <img class="d-block emp" src="./images/o.jpg" alt="Third slide">
-        <h4 style="text-align: center;">Project Manager/Crew Lead</h4>
-        <h5 style="text-align: center;">MAY 2018 - CURRENT</h5>
-        <ul style="text-align: center;">
-          <li>My Job is to analyze current business processes and make recommendations for improvement. 
-            I improve training and operational procedures to increase productivity. I specialize in relational databases such as  SQL to query reports 
-            for analytical data for our clients.
-            </li>
-
-        </ul>
-        <br>
-      </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
+
+</div>
+<div class="row">
+<div class="col-md-7">
+  <h5>I am a certified Full-Stack Developer based out of Houston Tx. I specialize in creating User interfaces and back-end functionality for websites. 
+     </h5> 
+     <button class="theme-btn">Contact Me </button>
+
+</div>
+
+</div>
+</div>
+
+</section>
+
   
- </div>
 
 
 
-
- <div class="col-md-4 weddingPic borderBox hoverAll" >
-<img src="./images/model.png" style="width: 100%; height: 100%;" alt="">
- </div>
-</div>
-
-<!---New Section ---------------------->
-<div class="row thirdSec">
-    
-  <div class="col-md-4 education borderBox hoverAll" >
-    
- 
-   <h1 style="text-align: center;">Education</h1>
-   
-   <hr>
-
-   <img src="./images/bootcamp.png" style="width:90px;" class="rounded mx-auto d-block"> <h5 style="text-align: center;">University of Texas: Coding Bootcamp </h5> <p style="text-align: center;">September 2019 - March 2020</p>
-   <hr>
-  
-   <img src="./images/umhb.jpg" style="width:90px;" class="rounded mx-auto d-block">  <h5 style="text-align: center;">University of Mary-Hardin Baylor</h5> <p style="text-align: center;">August 2010 - June 2015</p>
-   
-
-
-   <hr>
-
-
- 
-    
-  </div>
-
-
-  <div class="col-md-5 project borderBox" >
-   
-   <h1>Projects</h1>
- </div>
-
-
-
-
- <div class="col-md-3 skills borderBox " >
-  <h1 style="text-align: center;">Skills</h1>
-    <p style="font-size: 15px; text-align: center;"> Click Icon to learn More</p>
-    <div class="col-md-12">
-    <i class="fab fa-git-alt fa-2x" style="margin: 5px"></i>
-    <i class="fab fa-html5 fa-2x" style="margin: 5px"></i>
-    <i class="fab fa-css3-alt fa-2x" style="margin: 5px"></i>
-    <i class="fab fa-js fa-2x" style="margin: 5px"></i>
-    <i class="fab fa-node-js fa-2x" style="margin: 5px"></i>
-    <i class="fab fa-bootstrap fa-2x" style="margin: 5px"></i>
-    <i class="fab fa-gripfire fa-2x" style="margin: 5px"></i>
-    <img src="./images/sql.png" class="sql" style="width: 25px; background-color: royalblue;">
-    <i class="fab fa-python fa-2x" style="margin: 5px"></i>
-    <i class="fas fa-language fa-2x" style="margin: 5px"></i>
-    </div>
-    <hr>
-<div class="description" style="text-align: center;">
-<h4 class="desTitle" style="text-align: center;"></h4>
-<p class= "des" style="font-size: 15px ;"></p>
- </div>
-</div>
-</div>
-
-
-
-
- 
-
-<!---New Section --------------    --------------->
-<div class="row forthSec">
-    
-  <div class="col-md-3 education borderBox" >
-    
- 
-   <h1 style="text-align: center;">Education</h1>
-  </div>
-
-
-  <div class="col-md-5  borderBox" >
-   
- </div>
-
-
-
-
- <div class="col-md-4 skills borderBox " >
-<img src="./images/wedding.png" style="width: 100%; height: 100%;" alt="">
- </div>
-</div>
-
-
-
-
-
-
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
     <script>
        ScrollReveal().reveal('.navSec', {distance:'-100px' ,duration:500,})
-        ScrollReveal().reveal('.headerSec', {distance:'200px' ,duration:500,})
+        ScrollReveal().reveal('.beginning', {distance:'-500px' ,duration:1500,})
         ScrollReveal().reveal('.secondSec', {distance:'200px' ,duration:500})
         ScrollReveal().reveal('.thirdSec', {distance:'200px' ,duration:500})
     </script>
@@ -304,274 +111,6 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript">
-     
-      $('.fa-html5 ').on('click',function() {
-        console.log("html")
-        $('.desTitle').text("HTML")
-        $('.des').text("Throughout my time as a Business Analyst I spent a fraction of my time Testing and making updates to the Benefits Portal Website. My knowledge of HTML increased with the education I have recieved at the UT coding academy.")
-      });
-
-      $('.fa-css3-alt').on('click',function() {
-        console.log("css")
-        $('.desTitle').text("CSS")
-        $('.des').text("My experience at the UT coding camp enhanced by abilities in CSS. Styling designs and having the free range of being creative is one of my favortie aspects of Web Development")
-      });
-
-      $('.fa-js').on('click',function() {
-        console.log("javaScript")
-        $('.desTitle').text("JavaScript")
-        $('.des').text("My experience at the UT coding camp enhanced by abilities in JavaScript. I have Project examples below that showcase some of my skills using this coding language.")
-      });
-
-      $('.fa-node-js').on('click',function() {
-        console.log("Node. JS")
-        $('.desTitle').text("NODE")
-        $('.des').text("My experience at the UT coding camp enhanced by abilities in Node. We enhanced our skills in Javascript learning Node. Project examples below.")
-      });
-      
-      $('.fa-language').on('click',function() {
-        console.log("Spanish")
-        $('.desTitle').text("Communication")
-        $('.des').text("I have been practicing Spanish for 3 years, I can communicate effectively in Spanish. I can read, write, and speak at an intermidate level. ")
-      });
-
-      $('.fa-git-alt').on('click',function() {
-        console.log("Terminal")
-        $('.desTitle').text("Git Bash/Terminal")
-        $('.des').text("Throughout the Bootcamp we have been utilizing Git Bash/Terminal for colloabrative projects and for commiting changes with our code to Git Hub. Take a look at my GitHub Account to see my commit history for each project" )
-      });
-
-      $('.sql').on('click',function() {
-        console.log("sql")
-        $('.desTitle').text("MicroSoft SQL")
-        $('.des').text("SQL is the foundation software that I use at Empyrean Benefits Solutions, We use SQL everyday for aggregating data for clients, building reports, and analyzing data for our vendors and clients" )
-      });
-
-      
-      const queryURL = "https://dataservice.accuweather.com/forecasts/v1/daily/1day/351197?apikey=%20IeOsHUbDMuyIriwI6Ra2gWcG56IaA0Qn"
-      // IeOsHUbDMuyIriwI6Ra2gWcG56IaA0Qn
-     
-      $.ajax({
-      url: queryURL,
-      method: "GET"
-    }).then(function(response) {
-      const iconCode = response.DailyForecasts[0].Day.Icon
-      let iconUrl = `https://developer.accuweather.com/sites/default/files/${iconCode}-s.png`
-      const iconN = response.DailyForecasts[0].Night.Icon
-      let iconUrlN = `https://developer.accuweather.com/sites/default/files/${iconN}-s.png`
-      console.log(response);
-      
-      $('#tempMin').html("LOW " + response.DailyForecasts[0].Temperature.Minimum.Value +  "&#176" + " F ");
-      $('#temp').html("HIGH " + response.DailyForecasts[0].Temperature.Maximum.Value  +  "&#176" + " F");
-      $('#iconPhrase').text(response.DailyForecasts[0].Day.IconPhrase);
-      // $('#icon').html("<img src='"  + iconUrl  + "'>")
-
-
-      $('#iconPhraseN').text(response.DailyForecasts[0].Night.IconPhrase);
-      // $('#iconN').html("<img src='"  + iconUrlN  + "'>")
-
-switch(iconCode){
-  case 1 :iconCode
-  $('.icon').html("<img src='https://media.giphy.com/media/iIkWAGpkp5ANahU8CC/giphy.gif'>")
-  break
-
-  case 2 :iconCode
-  $('.icon').html("<img src='https://media.giphy.com/media/3ov9jLYWb4zCjGfqIE/giphy.gif'>")
-  break
-
-  case 3 :iconCode
-  $('.icon').html("<img src= 'https://media.giphy.com/media/3ov9jLYWb4zCjGfqIE/giphy.gif'>")
-  break
-
-  case 4 :iconCode
-  $('.icon').html("<img src='https://media.giphy.com/media/3ov9jLYWb4zCjGfqIE/giphy.gif'>")
-  break
-
-  case 5 :iconCode
-  $('.icon').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
-  break
-
-  case 6 :iconCode
-  $('.icon').html("<img src='https://media.giphy.com/media/cOJbD5FJCMRbFJdjSe/giphy.gif'>")
-  break
-
-  case 7 :iconCode
-  $('.icon').html("<img src='https://media.giphy.com/media/cOJbD5FJCMRbFJdjSe/giphy.gif'>")
-  break
-  case 8 :iconCode
-  $('.icon').html("<img src='https://media.giphy.com/media/cOJbD5FJCMRbFJdjSe/giphy.gif'>")
-  break
-  case 9 :iconCode
-  $('.icon').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
-  break
-  case 10 :iconCode
-  $('.icon').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
-  break
-
-  case 11 :iconCode
-  $('.icon').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
-  break
-
-  case 12 :iconCode
-  $('.icon').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
-  break
-
-  case 13 :iconCode
-  $('.icon').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
-  break
-
-  case 14 :iconCode
-  $('.icon').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
-  break
-
-  case 15 :iconCode
-  $('.icon').html("<img src='https://media.giphy.com/media/hWSMcav8Cr9yHJpS3q/giphy.gif'>")
-  break
-
-  case 16 :iconCode
-  $('.icon').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
-  break
-
-  case 17 :iconCode
-  $('.icon').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
-  break
-
-  case 18 :iconCode
-  $('.icon').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
-  break
-
-  case 19 :iconCode
-  $('.icon').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
-  break
-
-  default:
- 
-  $('.icon').html("<img src='https://media.giphy.com/media/iIkWAGpkp5ANahU8CC/giphy.gif'>")
-  break
-
-}
-
-switch(iconN){
-  case 33 :iconN
-  $('.iconN').html("<img src='https://media.giphy.com/media/xT9Igr21uuBKoANjck/giphy.gif'>")
-  break
-
-  case 2 :iconN
-  $('.iconN').html("<img src='https://media.giphy.com/media/3ov9jLYWb4zCjGfqIE/giphy.gif'>")
-  break
-
-  case 3 :iconN
-  $('.iconN').html("<img src= 'https://media.giphy.com/media/3ov9jLYWb4zCjGfqIE/giphy.gif'>")
-  break
-
-  case 4 :iconN
-  $('.iconN').html("<img src='https://media.giphy.com/media/3ov9jLYWb4zCjGfqIE/giphy.gif'>")
-  break
-
-  case 5 :iconN
-  $('.iconN').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
-  break
-
-  case 6 :iconN
-  $('.iconN').html("<img src='https://media.giphy.com/media/cOJbD5FJCMRbFJdjSe/giphy.gif'>")
-  break
-
-  case 7 :iconN
-  $('.iconN').html("<img src='https://media.giphy.com/media/cOJbD5FJCMRbFJdjSe/giphy.gif'>")
-  break
-  case 8 :iconN
-  $('.iconN').html("<img src='https://media.giphy.com/media/cOJbD5FJCMRbFJdjSe/giphy.gif'>")
-  break
-  case 9 :iconN
-  $('.iconN').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
-  break
-  case 10 :iconN
-  $('.iconN').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
-  break
-
-  case 11 :iconN
-  $('.iconN').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
-  break
-
-  case 12 :iconN
-  $('.iconN').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
-  break
-
-  case 13 :iconN
-  $('.iconN').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
-  break
-
-  case 14 :iconN
-  $('.iconN').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
-  break
-
-  case 15 :iconN
-  $('.iconN').html("<img src='https://media.giphy.com/media/hWSMcav8Cr9yHJpS3q/giphy.gif'>")
-  break
-
-  case 16 :iconN
-  $('.iconN').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
-  break
-
-  case 17 :iconN
-  $('.iconN').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
-  break
-
-  case 18 :iconN
-  $('.iconN').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
-  break
-
-
-  case 19 :iconN
-  $('.iconN').html("<img src='https://media.giphy.com/media/3ov9jCEFMBtCy54q6Q/giphy.gif'>")
-  break
-
-  default:
- 
-  $('.iconN').html("<img src='https://media.giphy.com/media/xT9Igr21uuBKoANjck/giphy.gif'>")
-  break
-
-
-}
-
-      // if(iconCode < 10 ){
-      //   let iconUrl = `https://developer.accuweather.com/sites/default/files/0${iconCode}-s.png`
-      //   $('#icon').html("<img src='"  + iconUrl  + "'>")
-
-      // } else {
-      //   let iconUrl = `https://developer.accuweather.com/sites/default/files/${iconCode}-s.png`
-      //   $('#icon').html("<img src='"  + iconUrl  + "'>")
-
-      // }
-
-      // if(iconCodeN < 10 ){
-      //   let iconUrlN = `https://developer.accuweather.com/sites/default/files/0${iconCodeN}-s.png`
-      //   $('#iconN').html("<img src='"  + iconUrlN  + "'>")
-
-      // } else {
-      //   let iconUrlN = `https://developer.accuweather.com/sites/default/files/${iconCodeN}-s.png`
-      //   $('#iconN').html("<img src='"  + iconUrlN  + "'>")
-
-      // }
-      
-
-      n =  new Date();
-y = n.getFullYear();
-m = n.getMonth() + 1;
-d = n.getDate();
-document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
-
-
-
-    });
-
-  // ---------------------------------------------------------
-  
-      
-      
-    </script>
-  
- </body>
-
+    <script type="text/javascript"></script>
+</body>
 </html>

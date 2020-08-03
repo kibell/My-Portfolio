@@ -56,5 +56,63 @@ if ($(window).width() < 960) {
     ScrollReveal().reveal('.d2', {distance:'-200px' ,duration:700})
     ScrollReveal().reveal('.d3', {distance:'-200px' ,duration:900})
     ScrollReveal().reveal('.d4', {distance:'-200px' ,duration:1100})
-    ScrollReveal().reveal('.thirdSec', {distance:'200px' ,duration:500})
+    ScrollReveal().reveal('.up', {distance:'200px' ,duration:900, delay:300})
+    ScrollReveal().reveal('.down', {distance:'-200px' ,duration:900,  delay:300})
  }
+
+
+
+
+ // weather API
+
+
+ const queryURL = "https://dataservice.accuweather.com/forecasts/v1/daily/1day/351197?apikey=%20IeOsHUbDMuyIriwI6Ra2gWcG56IaA0Qn"
+ // IeOsHUbDMuyIriwI6Ra2gWcG56IaA0Qn
+
+ $.ajax({
+ url: queryURL,
+ method: "GET"
+}).then(function(response) {
+ const iconCode = response.DailyForecasts[0].Day.Icon
+ let iconUrl = `https://developer.accuweather.com/sites/default/files/${iconCode}-s.png`
+ const iconCodeN = response.DailyForecasts[0].Night.Icon
+ let iconUrlN = `https://developer.accuweather.com/sites/default/files/${iconCodeN}-s.png`
+ console.log(response);
+ 
+ $('#tempMin').html("LOW " + response.DailyForecasts[0].Temperature.Minimum.Value +  "&#176" + " F ");
+ $('#temp').html("HIGH " + response.DailyForecasts[0].Temperature.Maximum.Value  +  "&#176" + " F");
+ $('#iconPhrase').text(response.DailyForecasts[0].Day.IconPhrase);
+ // $('#icon').html("<img src='"  + iconUrl  + "'>")
+
+
+ $('#iconPhraseN').text(response.DailyForecasts[0].Night.IconPhrase);
+ // $('#iconN').html("<img src='"  + iconUrlN  + "'>")
+
+ if(iconCode < 10 ){
+   let iconUrl = `https://developer.accuweather.com/sites/default/files/0${iconCode}-s.png`
+   $('#icon').html("<img src='"  + iconUrl  + "'>")
+
+ } else {
+   let iconUrl = `https://developer.accuweather.com/sites/default/files/${iconCode}-s.png`
+   $('#icon').html("<img src='"  + iconUrl  + "'>")
+
+ }
+
+ if(iconCodeN < 10 ){
+   let iconUrlN = `https://developer.accuweather.com/sites/default/files/0${iconCodeN}-s.png`
+   $('#iconN').html("<img src='"  + iconUrlN  + "'>")
+
+ } else {
+   let iconUrlN = `https://developer.accuweather.com/sites/default/files/${iconCodeN}-s.png`
+   $('#iconN').html("<img src='"  + iconUrlN  + "'>")
+
+ }
+
+
+ n =  new Date();
+y = n.getFullYear();
+m = n.getMonth() + 1;
+d = n.getDate();
+document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
+
+});

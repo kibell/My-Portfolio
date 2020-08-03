@@ -110,6 +110,33 @@ font-weight: 500;
 
 }
 
+.upper{
+    width: 100px;
+    position: fixed;
+    
+    right: 40px;
+    left: auto;
+    z-index: 10;
+    color: rgb(168, 178, 209);
+
+
+}
+
+.lower{
+    width: 100px;
+    position: fixed;
+    bottom:0px;
+    right: 40px;
+    left: auto;
+    z-index: 10;
+    color: rgb(168, 178, 209);
+
+
+}
+#iconPhrase, #iconPhraseN{
+    font-size: 20px;
+}
+
 .sideBar ul{
     display: flex;
     flex-direction: column;
@@ -118,6 +145,20 @@ font-weight: 500;
     padding: 0px;
     margin: 0px;
     list-style: none;  
+}
+
+.rightBar ul{
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;  
+}
+
+.rightBar ul li{
+    margin-top: 15px;
 }
 
 .fab{
@@ -147,7 +188,7 @@ font-weight: 500;
     margin-top: 2rem;
 }
 
-.sideBar{
+.sideBar,.rightBar{
     opacity: 0;
 }
 

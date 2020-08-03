@@ -1,4 +1,33 @@
-console.log("im working")
+
+
+//education
+$('.umhb').on('click', function(){
+    $('.eduName').text("UMHB")
+    $('.edutext').text("Major: Computer Information Systems")
+    $('.gpatext').text("GPA: 3.01")
+    $('.honor').text("Achievements")
+    $('.alcolade').text("University Ambassador")
+    $('.al2').text("NCAA Men's BasketBall")
+    $('.al3').text("Loyalty Award")
+    $('.imgSwitch').attr('src', './images/umhb.jpg' )
+    ScrollReveal().reveal('.imgSwitch', {distance:'-200px' ,duration:700})
+})
+
+$('.uot').on('click', function(){
+    $('.eduName').text("University of Texas")
+    $('.edutext').text("Major: Computer Information Systems")
+    $('.imgSwitch').attr('src', './images/bootcamp.png' )
+    $('.gpatext').text("Letter Grade: A-")
+    $('.honor').text("Achievements")
+    $('.alcolade').text("FullStack Certification")
+    $('.al2').text("King of Code (API Project)")
+    $('.al3').text("")
+    ScrollReveal().reveal('.imgSwitch', {distance:'-200px' ,duration:700})
+})
+
+
+
+
 $('.fa-html5 ').on('click',function() {
     console.log("html")
     $('.desTitle').text("HTML")

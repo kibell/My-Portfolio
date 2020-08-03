@@ -112,7 +112,7 @@ font-weight: 500;
 
 .upper{
     width: 100px;
-    position: fixed;
+    position: absolute;
     
     right: 40px;
     left: auto;
@@ -124,7 +124,7 @@ font-weight: 500;
 
 .lower{
     width: 100px;
-    position: fixed;
+    position: absolute;
     bottom:0px;
     right: 40px;
     left: auto;
@@ -177,6 +177,36 @@ font-weight: 500;
     color:var(--bold-text);
 }
 
+.hrt{
+    border-top: 2px solid var(--main-text);
+    
+}
+
+.bl{
+    border-left: 2px solid var(--main-text);
+}
+
+.br{
+    border-right:2px solid var(--main-text); ;
+}
+
+
+.edu:hover{
+    color: var(--highlights);
+    cursor: context-menu;
+}
+
+.imgSwitch{
+    width: 200px;
+    border-radius: 100%;
+    align-items: center;
+    margin-left: 4rem;
+}
+
+
+.education{
+    margin-top: 10rem;
+}
 
 @media (max-width: 30em)
 {

@@ -27,6 +27,8 @@ body{
 
 p{
     font-family: var(--main-font);
+    color: var(--main-text);
+    font-size: 20px;
 }
 
 .nav-link{
@@ -41,6 +43,10 @@ font-weight: 500;
 .highlight{
     color: var(--highlights);
     letter-spacing: 0px;
+    margin-right: 0px;
+}
+
+.mr{
     margin-right: 12px;
 }
 
@@ -66,6 +72,9 @@ font-weight: 500;
     font-size: 4rem;
 }
 
+.sideBar ul li i{
+    margin-top: 40px;
+}
 .beginning h3{
     color: var(--main-text );
     font-size: 5rem;
@@ -111,6 +120,22 @@ font-weight: 500;
     list-style: none;  
 }
 
+.fab{
+    color: rgb(168, 178, 209);
+}
+
+.fab:hover{
+    color:var(--highlights)
+}
+.about h2{
+    color:var(--bold-text);
+    font-family: var(--main-font);
+}
+
+.mtc{
+    color:var(--bold-text);
+}
+
 
 @media (max-width: 30em)
 {
@@ -129,4 +154,11 @@ font-weight: 500;
 .beginning h3{
     font-size: 44px;
 }
+
+.mypic{
+    width: 400px;
+    align-items: center;
+}
+
+
 }

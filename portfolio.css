@@ -11,7 +11,7 @@ body{
     --theme-color: #0a254e;
     --highlights: #50ccb4;
     --bold-text: #bec8e7;
-    --main-font: 'Share Tech Mono', monospace;
+    --main-font: 'Calibre, "San Francisco", "SF Pro Text"';
 }
 
 
@@ -63,18 +63,20 @@ font-weight: 500;
 .name{
     color: var(--bold-text);
     font-family: var(--main-font);
-    font-size: 110px;
+    font-size: 4rem;
 }
 
 .beginning h3{
     color: var(--main-text );
-    font-size: 64px;
+    font-size: 5rem;
+    font-family: var(--main-font);
 }
 
 .beginning h5{
     color: var(--main-text );
     letter-spacing: 5px;
     font-size: 20px;
+    font-family: var(--main-font);
 
 }
 
@@ -88,16 +90,43 @@ font-weight: 500;
 }
 
 .sideBar{
-    position: fixed; /* Make the sidebar immovable*/
-z-index: 1; /* Side bar stays at the top */
-display: flex;/* defines flexbox */
-        flex-direction: column;/* top to bottom */
-        justify-content: space-between;
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: 40px;
+    right: auto;
+    z-index: 10;
+    color: rgb(168, 178, 209);
 
 
 }
 
-.fab{
-    margin-left: 25px;
-    
+.sideBar ul{
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;  
+}
+
+
+@media (max-width: 30em)
+{
+.beginning {
+    height: 100vh;
+}
+
+.gt{
+    margin-top: 2rem;
+}
+
+.sideBar{
+    opacity: 0;
+}
+
+.beginning h3{
+    font-size: 44px;
+}
 }

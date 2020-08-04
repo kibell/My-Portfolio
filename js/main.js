@@ -1,4 +1,20 @@
 
+//work experience
+$('.empyrean').on('click', function(){
+
+$('.duty').html('<ul class="mtc"> <li>busin </li> </ul>')
+$('.expSwitch').attr('src', './images/emp.gif')
+
+
+})
+
+$('.logix').on('click', function(){
+
+  $('.duty').html(' <li> Manage employee schedules by creating itineraries for employees by identifying daily client requests and displaying efficient time management skills to ensure all appointments are met within the given restraints</li> <br> <li>Track trends based on weekly volumes by maintaining and updating specific test types received daily</li> <br>')
+  $('.expSwitch').attr('src', './images/logix-logo.png')
+  
+  })
+
 
 //education
 $('.umhb').on('click', function(){
@@ -15,7 +31,7 @@ $('.umhb').on('click', function(){
 
 $('.uot').on('click', function(){
     $('.eduName').text("University of Texas")
-    $('.edutext').text("Major: Computer Information Systems")
+    $('.edutext').text("Coding Bootcamp Certificate Program")
     $('.imgSwitch').attr('src', './images/bootcamp.png' )
     $('.gpatext').text("Letter Grade: A-")
     $('.honor').text("Achievements")

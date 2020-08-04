@@ -61,6 +61,19 @@ font-weight: 500;
 
 }
 
+.center{
+    text-align: center;
+}
+
+.projects{
+    margin-top: 20rem;
+}
+
+
+
+.projectRow{
+    margin-top: 2rem;
+}
 .gt{
     
     margin-top: 10rem;
@@ -173,6 +186,8 @@ font-weight: 500;
     font-family: var(--main-font);
 }
 
+
+
 .mtc{
     color:var(--bold-text);
 }
@@ -190,22 +205,42 @@ font-weight: 500;
     border-right:2px solid var(--main-text); ;
 }
 
+.workExp{
+    margin-top: 20rem;
+}
+
+.expSwitch{
+    width: 200px;
+    padding: 0px;
+    margin-left: 64px;
+    border-radius: 20%;
+}
 
 .edu:hover{
     color: var(--highlights);
     cursor: context-menu;
+    border: solid 2px rgba(4, 4, 77, 0.39);
+    background-color: rgba(137, 43, 226, 0.39);
+    width:60% ;
 }
 
 .imgSwitch{
     width: 200px;
     border-radius: 100%;
     align-items: center;
-    margin-left: 4rem;
+    margin-left: 2rem;
+}
+
+button:hover{
+    background-color: var(--highlights);
+    color: white
 }
 
 
 .education{
-    margin-top: 10rem;
+    margin-top: 20rem;
+    
+    
 }
 
 @media (max-width: 30em)
@@ -227,8 +262,12 @@ font-weight: 500;
 }
 
 .mypic{
-    width: 50vw;
+    width: 80vw;
     align-items: center;
+}
+
+.projectPic{
+    width: 88vw;
 }
 
 

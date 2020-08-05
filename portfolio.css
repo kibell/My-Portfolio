@@ -239,8 +239,34 @@ button:hover{
 
 .education{
     margin-top: 20rem;
-    
-    
+     
+}
+
+.tc{
+    background-color: var(--theme-color);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.margin20{
+    margin-top: 5rem;
+}
+
+.card-img{
+    height:100%
+}
+
+
+.cert{
+width: 30rem;
+border: solid 5px var(--highlights);
+
+}
+
+.rowDiv{
+    background-image: linear-gradient( to left, var(--highlights), var(--theme-color));
 }
 
 @media (max-width: 30em)
@@ -267,7 +293,7 @@ button:hover{
 }
 
 .projectPic{
-    width: 88vw;
+    width: 75vw;
 }
 
 

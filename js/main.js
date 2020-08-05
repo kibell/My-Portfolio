@@ -2,7 +2,13 @@
 //work experience
 $('.empyrean').on('click', function(){
 
-$('.duty').html('<ul class="mtc"> <li>busin </li> </ul>')
+$('.duty').html('<li> Here I work as a <span class="highlight"> Business analyst </span> I primarily work on project teams,  I Work in  <span class="highlight">cooperation </span> with my project managers Work on more than one project at a time and so must constantly reevaluate their priorities and deadlines</li> ' )
+
+$('.duty2').html( '<li>I have to gain an understanding of the organization’s <span class="highlight">business processes </span> relevant to the clients Requirements. I Document standard procedures and find ways refine inefficiencies within the systems processes. <span class="highlight"> Documentation </span> serves as the guide for relaying information that ensures deliverables to our 3rd party vendors and clients are transmitted <span class="highlight> securely  </span>and meets deadlines.</li> <br>')
+$('.duty3').html(' <li> I have to Brainstorm solutions for client requests, this includes but not limited to Web Designs, <span class="highlight"> system functionalities, </span> File Transitions etc.')
+// 
+$('.duty4').html('<li>During my role here I have gained experience in <br> <li><span class="highlight">SQL</span> </li> <li>Python</li> <li class="highlight"> HTML</li><li> <span class"highlight">Ticketing Systems</span> </li><li>MicroSoft Excel</li></li>')
+// Flesh out the details of a business solution, which requires a good understanding of how technological solutions are implemented.</li> </ul>')
 $('.expSwitch').attr('src', './images/emp.gif')
 
 
@@ -10,7 +16,11 @@ $('.expSwitch').attr('src', './images/emp.gif')
 
 $('.logix').on('click', function(){
 
-  $('.duty').html(' <li> Manage employee schedules by creating itineraries for employees by identifying daily client requests and displaying efficient time management skills to ensure all appointments are met within the given restraints</li> <br> <li>Track trends based on weekly volumes by maintaining and updating specific test types received daily</li> <br>')
+  $('.duty').html(' <li> I Managed employee schedules by creating itineraries for employees by identifying daily client requests and displaying efficient <span class ="highlight">time management </span>skills to ensure all appointments are met within the given restraints</li> <br> <li> <span class="highlight">Track trends</span> based on weekly volumes by maintaining and updating specific test types received daily</li> <br>')
+  $('.duty2').html( '<li> I arranged and assisted <span class="highlight"> interactions </span> between rehabilitation centers, Clinics and Hospitals.Kept track of medical supplies, and ensured that our inventory was <span class="highlight"> sufficient</span> for daily client requests. </li>' )
+  $('.duty3').html( '<li>  </li>' )
+  $('.duty4').html( '<li> </li>' )
+
   $('.expSwitch').attr('src', './images/logix-logo.png')
   
   })
@@ -24,8 +34,9 @@ $('.umhb').on('click', function(){
     $('.honor').text("Achievements")
     $('.alcolade').text("University Ambassador")
     $('.al2').text("NCAA Men's BasketBall")
-    $('.al3').text("Loyalty Award")
+    $('.al3').text("")
     $('.imgSwitch').attr('src', './images/umhb.jpg' )
+    $('.cert').attr('src', './images/umhbcert.jpg')
     ScrollReveal().reveal('.imgSwitch', {distance:'-200px' ,duration:700})
 })
 
@@ -38,6 +49,7 @@ $('.uot').on('click', function(){
     $('.alcolade').text("FullStack Certification")
     $('.al2').text("King of Code (API Project)")
     $('.al3').text("")
+    $('.cert').attr('src', './images/UOTCert.png')
     ScrollReveal().reveal('.imgSwitch', {distance:'-200px' ,duration:700})
 })
 

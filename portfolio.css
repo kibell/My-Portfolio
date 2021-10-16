@@ -391,7 +391,7 @@ border: solid 5px var(--highlights);
 
     
     
-    margin-top: 200px;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     color: #8892b0;
@@ -408,4 +408,9 @@ color: #50ccb4;
 
 html {
     scroll-behavior: smooth;
+  }
+
+  .pdf{
+    color: #8892b0;
+    border-radius: 50
   }

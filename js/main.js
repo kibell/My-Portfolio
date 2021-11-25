@@ -37,6 +37,10 @@ $('.umhb').on('click', function(){
     $('.al3').text("")
     $('.imgSwitch').attr('src', './images/umhb.jpg' )
     $('.cert').attr('src', './images/umhbcert.jpg')
+    $('.fs1').text("	Recognized by campus leaders and peers and was elected in a prestigious role to represent the college campus. I was responsible for welcoming prospective students and their families to campus and assisting staff at events for new students. Lead tour groups throughout the school year. I coordinated with students and parents and accurately conveyed information about the University and aided if help was needed.")
+    $('.fs2').text("Dedication as I played all four years at UMHB. I Lead my team to the NCAA Finals and was recognized nationally as a top player in the country. (Currently the record holder for most rebounds in a single game at university) Exhibited excellent time management skills by devoting 25 hour per week towards a strict athletic schedule and maintaining a full course load over the span of 4 years.")
+    $('.ambass').attr('src', './images/ambassdor.jpg')
+    $('.ball').attr('src', './images/ball.jpg')
     ScrollReveal().reveal('.imgSwitch', {distance:'-200px' ,duration:700})
 })
 
@@ -50,6 +54,10 @@ $('.uot').on('click', function(){
     $('.al2').text("King of Code (API Project)")
     $('.al3').text("")
     $('.cert').attr('src', './images/UOTCert.png')
+    $('.fs1').text("	Built Front end projects that enhance my knowledge of frameworks such as bootstrap, React and Materialize. Developed applications that showcased my knowledge and utilization of the grid layout and ensuring that all applications are mobile responsive. I also gained an extensive understanding of the DOM and how a document is accessed and manipulated (DOM).")
+   $('.fs2').text("	Developed Applications using Googles Geocoder API. Calculated midpoints between two coordinates. Utilized Googles Places API to display an array of locations and Googles Directions API to display.")
+   $('.ambass').attr('src', '')
+   $('.ball').attr('src', '')
     ScrollReveal().reveal('.imgSwitch', {distance:'-200px' ,duration:700})
 })
 

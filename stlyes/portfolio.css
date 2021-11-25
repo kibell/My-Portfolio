@@ -69,7 +69,9 @@ font-weight: 500;
     margin-top: 20rem;
 }
 
-
+ul{
+    color: var(--main-text)
+}
 
 .projectRow{
     margin-top: 2rem;
@@ -246,7 +248,7 @@ font-weight: 500;
 
 .theme-btn:hover{
     background-color: white;
-    color: var(--main-text))
+    color: var(--main-text)
 }
 
 button:hover{
@@ -496,7 +498,9 @@ html {
   }
 
 
-
+.hover:hover{
+    color:var(--highlights)
+}
 
   /*----------------*/
   /* For mobile phones: */
@@ -534,4 +538,10 @@ html {
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
+  }
+
+
+  .smallText{
+
+    font-size: 10px;
   }

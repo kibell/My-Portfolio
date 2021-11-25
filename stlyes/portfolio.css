@@ -103,12 +103,13 @@ font-weight: 500;
 }
 
 .theme-btn{
-    background-color: rgba(240, 248, 255, 0);
-    color: var(--highlights);
+    /* background-color: rgba(240, 248, 255, 0.701); */
+  background-color: var(--highlights);
     border: solid var(--highlights) 2px;
     width: 150px;
     height: 50px;
     margin-top: 15px;
+    border-radius: 20%;
 }
 
 .sideBar{
@@ -241,6 +242,11 @@ font-weight: 500;
     border-radius: 100%;
     align-items: center;
     margin-left: 2rem;
+}
+
+.theme-btn:hover{
+    background-color: white;
+    color: var(--main-text))
 }
 
 button:hover{

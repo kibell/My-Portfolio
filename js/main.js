@@ -229,3 +229,6 @@ window.onload = function() {
     }
   }
 }
+
+
+//------------------------------------- Slider(all Slides in a container)

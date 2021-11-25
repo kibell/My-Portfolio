@@ -119,7 +119,10 @@ font-weight: 500;
     right: auto;
     z-index: 10;
     color: rgb(168, 178, 209);
+    visibility: visible;
+    
 
+    
 
 }
 
@@ -158,6 +161,15 @@ font-weight: 500;
     padding: 0px;
     margin: 0px;
     list-style: none;  
+}
+
+
+
+    @media only screen and (max-width: 1328px)  {
+       .sideBar{ 
+           visibility: hidden;
+           position: absolute;
+}
 }
 
 .rightBar ul{
@@ -343,7 +355,7 @@ a{
 
 
 .cert{
-width: 30rem;
+width: 20rem;
 border: solid 5px var(--highlights);
 
 }
@@ -370,17 +382,21 @@ border: solid 5px var(--highlights);
     font-size: 44px;
 }
 
-.mypic{
-    width: 80vw;
-    align-items: center;
-}
+/* .mypic img{
+    /* width: 20px; */
+    /* align-items: center;    
+    visibility: hidden;
+    display: none; */
+
+
+
 
 .projectPic{
     width: 75vw;
 }
 
 .cert{
-    width: 20rem;
+    width: 20vh;
     border: solid 5px var(--highlights);
     
     }
@@ -423,3 +439,93 @@ html {
       
   }
 
+/*------ Flip Card---------------*/
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+
+
+
+  /*----------------*/
+  /* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }

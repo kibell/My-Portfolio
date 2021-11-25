@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/814d9b1ed3.js" crossorigin="anonymous"></script>
-   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
    <!------------------------------------------------------Scroll Script------------------------------------>
    
     <script src="https://unpkg.com/scrollreveal"></script>
@@ -52,16 +52,23 @@
   <div class="sideBar" >
 <ul>
   <li>
-   <a href="https://twitter.com/sprout_bell"> <i  class="fab fa-twitter fa-2x"></i></a>
+    <button class="btn"  type="submit" onclick="window.open('KBell Resume.pdf')"
+    ><i class="far fa-file fa-2x pdf" style="text-decoration: none"><span class="badge">CV</span></i> 
+
   </li>
 
   <li >
-  <a href="https://github.com/kibell"><i class="fab fa-github-alt fa-2x"></i></a>
-</li>
+    <a href="https://github.com/kibell"><i class="fab fa-github-alt fa-2x"></i></a>
+  </li>
 
-<li >
- <a href="https://www.linkedin.com/in/kitrick-bell-83221494/"> <i class="fab fa-linkedin fa-2x"></i> </a>
-</li>
+
+  <li >
+    <a href="https://www.linkedin.com/in/kitrick-bell-83221494/"> <i class="fab fa-linkedin fa-2x"></i> </a>
+   </li>
+
+  <li>
+   <a href="https://twitter.com/sprout_bell"> <i  class="fab fa-twitter fa-2x"></i></a>
+  </li>
 
 <li>
   <i class="fab fa-facebook fa-2x"></i>
@@ -105,7 +112,7 @@
       <h1 class="name">Kitrick Bell</h1>
       <h3>I am a   <span class="txt-rotate type"
         data-period="2000"
-        data-rotate='[ "Business Systems Analyst.", "Full-Stack Developer." ]'></span></h3>
+        data-rotate='[ "Systems Analyst.", "Full-Stack Developer." ]'></span></h3>
       <br>
  
       
@@ -115,12 +122,11 @@
 </div>
 <div class="row">
 <div class="col-md-7">
-  <h5>Currently working as a Systems Analyst. I am certified in Full-Stack Web development and Fundamentals of Cyber Security. I am eager to learn and want to expand
+  <h5>Currently working as a Systems Analyst. I am certified in Full-Stack Web development and Fundamentals of Cyber Security. I am eager to learn and ready to expand
     my knowledge in technology systems.
      </h5> 
-     <button class="theme-btn" style="margin-top: 20px;">Contact Me </button>
-     <button class="btn" style="margin-left:  30px; text-decoration: none;" type="submit" onclick="window.open('KBell Resume.pdf')"
-     ><i class="far fa-file fa-2x pdf" style="text-decoration: none"></i> 
+     <button class="theme-btn" style="margin-top: 20px;" > <a href="./contact.html" style='text-decoration: none;'>Contact Me </a> </button>
+    
   </button>
  
  </form>
@@ -142,7 +148,7 @@
 <section class="about" id='about'  style="margin-top: 200px;">
   <div class="container" >
     <div class="row" style="margin-top: 200px;" >
-      <div class="col-md-6 down bl">
+      <div class="col-md-5 down bl">
        <h1 class="mtc"><span class="highlight mr">01</span>About Me</h1>
 
        <hr class="hrt">
@@ -179,11 +185,11 @@
 
     </div>
 
-    <div class="col-md-6 ">
-      <img class="mypic up" src="./images/kb.png" alt="">
+    <div class="col-md-7 col-sm-">
+      <img class="mypic up" src="./images/kb.png" style="width: 30rem;" alt="">
     </div>
 
-
+    </div>
   </div>
 
 
@@ -228,7 +234,6 @@
   <div class="col-md-5 up" style="margin-top: 5rem;">
     
     <h5 class="edutext mtc" >Major: Computer Information Systems</h5>
-    <h5 class="gpatext mtc" >GPA: 3.01</h5>
     <h5 class="honor mtc">Achievements</h5>
 
     <ul>
@@ -291,15 +296,16 @@
             <div >
               <ul class="mtc">
                 <li class ="duty">
-                  Here I work as a <span class="highlight"> Business analyst </span> I primarily work on project teams,  I Work in  <span class="highlight">cooperation </span> with my project managers Work on more than one project at a time and so must constantly reevaluate their priorities and deadlines
+                  Collaborates with Dev Ops in <span class="highlight"> developing </span> websites for Clients ensuring that specific requirements are <span class="highlight">configured </span> appropriately to meet business needs for over 250,000 employees 
                 </li>
                 <br>
                 <li class ="duty2">
-                  I have to gain an understanding of the organization’s <span class="highlight">business processes </span> relevant to the clients Requirements. I Document standard procedures and find ways refine inefficiencies within the systems processes. <span class="highlight"> Documentation </span> serves as the guide for relaying information that ensures deliverables to our 3rd party vendors and clients are transmitted <span class="highlight"> securely  </span>and meets deadlines
+                  I was a key resource and leader for our client  <span class="highlight"> implementation.</span> I was able to oversee complex system configuration tasks. I was responsible for delegating projects and training entry level analysts on understanding ticket tracking systems and how the platform operates. We were able to successfully <span class="highlight"> launch the website </span> tailored to over   12 unique groups and 150,000 employees, meeting Client expectations.
                 </li>
                 <br>
                 <li class ="duty3">
-                  I have to Brainstorm solutions for client requests, this includes but not limited to Web Designs, <span class="highlight"> system functionalities, </span> File Transitions etc.
+                  Spearheads system issues by utilizing agile methodology to complete projects and meeting specific deadlines. I was able to  <span class="highlight"> improves </span> our Premium Reporting Process and saved the company over 16 hours of time allocated to this task by developing complex queries using SQL Server that reduced processing time to 4 hours.
+
                 </li>
                 <br>
                 <li class="duty4">
@@ -408,6 +414,57 @@
           
           </div>
         </div>
+
+        <!-- <div id="myCarousel" class="carousel slide w-100" data-ride="carousel">
+          <div class="carousel-inner w-100" role="listbox">
+            <div class="carousel-item active">
+              <div class="col-lg-12 col-md-6">
+                <h1>Meet ME</h1>
+                <img class="img-fluid" src="./images/meetme.gif">
+               
+              </div>
+              <div class="col-lg-2">
+                <h1>Meet Me</h1>
+
+              </div>
+            </div> -->
+
+
+            <!-- <div class="carousel-item">
+              <div class="col-lg-4 col-md-6">
+                <img class="img-fluid" src="http://placehold.it/350x180?text=2">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="col-lg-4 col-md-6">
+                <img class="img-fluid" src="http://placehold.it/350x180?text=3">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="col-lg-4 col-md-6">
+                <img class="img-fluid" src="http://placehold.it/350x180?text=4">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="col-lg-4 col-md-6">
+                <img class="img-fluid" src="http://placehold.it/350x180?text=5">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="col-lg-4 col-md-6">
+                <img class="img-fluid" src="http://placehold.it/350x180?text=6">
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev bg-dark w-auto" href="#myCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next bg-dark w-auto" href="#myCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div> -->
   </div>
 </section>
 
@@ -419,8 +476,111 @@
           <hr class="hrt">
 
           <div class="row">
-            
-          <div class="card " style="width: 18rem; margin-left: 5%; ">
+            <!---------------->
+            <div class="flip-card" style="width: 20rem; height: 18rem ;  ">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="./images/trivia.PNG" alt="Trivia" style="width: 20rem; height:18rem;">
+                </div>
+                <div class="flip-card-back">
+                  <h1>Trivia Quiz</h1>
+                  <p>Using Javascript to create a timed Trivia quiz that will grade you at the end based on your performance.</p>
+                  
+                  <a href="https://kibell.github.io/Trivia-Game-/" class="btn btn-primary">Visit Site</a>
+                  <a href="#" class="btn btn-primary">See Code</a>
+                </div>
+              </div>
+            </div>
+            <!------------->
+
+             <!---------------->
+             <div class="flip-card" style="width: 20rem; height: 18rem ;  ">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="./images/Giphy.PNG" alt="Trivia" style="width: 20rem; height:18rem;">
+                </div>
+                <div class="flip-card-back">
+                  <h1>Trivia Quiz</h1>
+                  <p>Using the use of API's from Giphy to fetch data and post gifs. Able to enter specific Gifs dynamically and it will return results.</p>
+                  
+                  <a href="https://kibell.github.io/Trivia-Game-/" class="btn btn-primary">Visit Site</a>
+                  <a href="#" class="btn btn-primary">See Code</a>
+                </div>
+              </div>
+            </div>
+            <!------------->
+
+             <!---------------->
+             <div class="flip-card" style="width: 20rem; height: 18rem ;  ">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="./images/trivia.PNG" alt="Trivia" style="width: 20rem; height:18rem;">
+                </div>
+                <div class="flip-card-back">
+                  <h1>Trivia Quiz</h1>
+                  <p>Using Javascript to create a timed Trivia quiz that will grade you at the end based on your performance.</p>
+                  
+                  <a href="#" class="btn btn-primary">Visit Site</a>
+                  <a href="#" class="btn btn-primary">See Code</a>
+                </div>
+              </div>
+            </div>
+            <!------------->
+            </div>
+      
+                <div class="row">
+                  <!---------------->
+                  <div class="flip-card" style="width: 20rem; height: 18rem ;  ">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="./images/trivia.PNG" alt="Trivia" style="width: 20rem; height:18rem;">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>Trivia Quiz</h1>
+                        <p>Using Javascript to create a timed Trivia quiz that will grade you at the end based on your performance.</p>
+                        
+                        <a href="https://kibell.github.io/Trivia-Game-/" class="btn btn-primary">Visit Site</a>
+                        <a href="#" class="btn btn-primary">See Code</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!------------->
+      
+                   <!---------------->
+                   <div class="flip-card" style="width: 20rem; height: 18rem ;  ">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="./images/Giphy.PNG" alt="Trivia" style="width: 20rem; height:18rem;">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>Trivia Quiz</h1>
+                        <p>Using the use of API's from Giphy to fetch data and post gifs. Able to enter specific Gifs dynamically and it will return results.</p>
+                        
+                        <a href="https://kibell.github.io/Trivia-Game-/" class="btn btn-primary">Visit Site</a>
+                        <a href="#" class="btn btn-primary">See Code</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!------------->
+      
+                   <!---------------->
+                   <div class="flip-card" style="width: 20rem; height: 18rem ;  ">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="./images/trivia.PNG" alt="Trivia" style="width: 20rem; height:18rem;">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>Trivia Quiz</h1>
+                        <p>Using Javascript to create a timed Trivia quiz that will grade you at the end based on your performance.</p>
+                        
+                        <a href="#" class="btn btn-primary">Visit Site</a>
+                        <a href="#" class="btn btn-primary">See Code</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<!------------------------------------------------------------->
+          <!-- <div class="card "  style="width: 18rem; margin-left: 5%; ">
             <img src="./images/trivia.gif" class="card-img-top" alt="...">
             <div class="card-body tc">
               <h5 class="card-title mtc">Trivia Quiz</h5>
@@ -545,7 +705,7 @@
 
 
 
-    </div>
+    </div> -->
 
 
   </div>
@@ -555,17 +715,8 @@
 
 
 <!------------practice ----->
-<!---<section>
-  <div class="container">
-    <div class="row">
-    <div style="position: relative; left: 0; top: 0;" class="col-md-12">
-      <img src="./images/83-835635_homepage.png" class="fishes"/>
-      <img src="./images/bootcamp.png" class="fish"/>
-    </div>
-  </div>
-  </div>
-</section>
----->
+
+<!----------->
 
 <footer>
   <div class="container">

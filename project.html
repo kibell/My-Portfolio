@@ -120,9 +120,9 @@
       <h6 class = "description"></h6>
       <img src="" class = "projectImg" id= "projectImg">
       
-      <button><a class="viewCode" id="viewCode"href="#"></a></button>
+      <button id="vc"><a class="viewCode" id="viewCode"href="#"></a></button>
 
-      <button><a class="viewSite" id="viewSite" href="#"></a></button>
+      <button id="vs"><a class="viewSite" id="viewSite" href="#"></a></button>
      
 
 
@@ -133,10 +133,11 @@
       <div class="boxContainer">
          
         <div class="box triviaProject"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
+        <div class="box BellSprout"></div>
+        <div class="box meetMe"></div>
+        <div class="box triviaR"></div>
+        
+        <div class="box clicky"></div>
         <div class="box"></div>
         <div class="box"></div>
         <div class="box"></div>
@@ -176,10 +177,72 @@
       document.getElementById("viewCode").href="https://github.com/kibell/Netflix-Clone"
       document.getElementById("viewSite").href=""
        document.getElementById("projectImg").style.display = "block"
-    
+       document.getElementById("vc").style.display = "block"
+       document.getElementById("vs").style.display = "block"
 
       })
+
+      $('.meetMe').hover( function(){
+      $('.projectTitle').text("Meet Me Geocoder App")
+      $('.frames').text("Used: Javascript, Google API, HTML, CSS")
+      $('.description').text("Have you ever wanted to meet a coworker for lunch and had trouble finding a place to meet? With Let's Meet you can link with your friends and coworkers on this app. Each user will enter in their Zip code and Let's meet will find the closest resturants near you and will give each user the option to vote on which place to go.")
+      $('.projectImg').attr('src', './images/projectImages/Document.gif')
+    
+      $('.viewCode').text("View Code")
+      $('.viewSite').text("Visit Site")
+      document.getElementById("viewCode").href="https://github.com/kibell/Meetme"
+      document.getElementById("viewSite").href="https://kibell.github.io/Meetme/Address.html"
+       document.getElementById("projectImg").style.display = "block"
+       document.getElementById("vc").style.display = "block"
+       document.getElementById("vs").style.display = "block"
+      })
       
+
+      $('.triviaR').hover( function(){
+      $('.projectTitle').text("Timed Trivia App")
+      $('.frames').text("Used: Javascript, HTML, CSS")
+      $('.description').text("This Trivia game tests your knowledge with comics. You have 30 seconds per question to answer correctly. Get the answer right and you will see the animated gif. Get the answer wrong and you get nothing. You score will be calculated at the end. Think you can get them all right?")
+      $('.projectImg').attr('src', './images/projectImages/Trivia.gif')
+    
+      $('.viewCode').text("View Code")
+      $('.viewSite').text("Visit Site")
+      document.getElementById("viewCode").href="https://github.com/kibell/Trivia-Game-"
+      document.getElementById("viewSite").href=" https://kibell.github.io/Trivia-Game-/"
+       document.getElementById("projectImg").style.display = "block"
+       document.getElementById("vc").style.display = "block"
+       document.getElementById("vs").style.display = "block"
+      })
+
+      $('.BellSprout').hover( function(){
+      $('.projectTitle').text("BellSprout Web Design")
+      $('.frames').text("Used: Javascript, HTML, CSS, WordPress ")
+      $('.description').text("At Bell sprouts, we want to help facilitate your growth as a business or as a Developer. Let us layout your foundation with a stunning design that will help motivate you to inspire others or provide you with tools that will make will help you become an expert full stack developer. Book a free consultation to get started will Bell Sprouts and learn what we can do for you. Or you can View the course we offer and get started learning today!")
+      $('.projectImg').attr('src', './images/projectImages/Bell.gif')
+    
+      $('.viewCode').text("View Code")
+      $('.viewSite').text("Visit Site")
+      document.getElementById("viewCode").href=""
+      document.getElementById("viewSite").href=" https://bellsproutdesigns.com/"
+       document.getElementById("projectImg").style.display = "block"
+       document.getElementById("vc").style.display = "block"
+       document.getElementById("vs").style.display = "block"
+      })
+
+      
+      $('.clicky').hover( function(){
+      $('.projectTitle').text("Anime Clicky App")
+      $('.frames').text("Used: Javascript, HTML, CSS, WordPress ")
+      $('.description').text("Test your memory with this fun Clicky Application. Click on each character only once. Characters are shuffled everytime. Can you get them all?")
+      $('.projectImg').attr('src', './images/projectImages/React App.gif')
+    
+      $('.viewCode').text("View Code")
+      $('.viewSite').text("Visit Site")
+      document.getElementById("viewCode").href="https://github.com/kibell/Clicky-Game-React"
+      document.getElementById("viewSite").href=" https://naughty-allen-95382a.netlify.app/"
+       document.getElementById("projectImg").style.display = "block"
+       document.getElementById("vc").style.display = "block"
+       document.getElementById("vs").style.display = "block"
+      })
       </script>
 </body>
 

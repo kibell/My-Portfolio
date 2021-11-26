@@ -106,12 +106,20 @@ ul{
 
 .theme-btn{
     /* background-color: rgba(240, 248, 255, 0.701); */
-  background-color: var(--highlights);
+  background-color: var(--theme-color);
     border: solid var(--highlights) 2px;
     width: 150px;
     height: 50px;
     margin-top: 15px;
     border-radius: 20%;
+    color: var(--theme-color);
+    
+}
+
+.theme-btn:hover{
+background-color: var(--highlights);
+/* color: var(--theme-color); */
+
 }
 
 .sideBar{
@@ -246,14 +254,10 @@ ul{
     margin-left: 2rem;
 }
 
-.theme-btn:hover{
-    background-color: white;
-    color: var(--main-text)
-}
 
 button:hover{
     background-color: var(--highlights);
-    color: white
+    
 }
 
 
@@ -544,4 +548,8 @@ html {
   .smallText{
 
     font-size: 10px;
+  }
+
+  .contact:hover{
+    color: var(--highlights);
   }

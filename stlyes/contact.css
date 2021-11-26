@@ -7,12 +7,56 @@
   box-sizing: border-box;
 }
 
+:root{
+  --main-text:#8892b0 ;
+  --theme-color: #0a254e;
+  --highlights: #50ccb4;
+  --bold-text: #bec8e7;
+  --main-font: 'Calibre, "San Francisco", "SF Pro Text"';
+}
+
+
 body {
   background-color: #6a9ac4;
 }
 
+ 
+.nav-item{
+  letter-spacing: 4px;
+  font-weight: bold;
+  font-size: 20px;
+  
+  margin: 10px;
+  font-family: var(--main-font);
+
+}
+
+.nav-link{
+color:var(--main-text);
+font-weight: 500;
+}
+
+.nav-link:hover{
+
+    color:var(--highlights)
+}
+.highlight{
+    color: var(--highlights);
+    letter-spacing: 0px;
+    margin-right: 0px;
+}
+
+.mr{
+    margin-right: 12px;
+}
+
+.navbar{
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0), var(--theme-color)) ;
+}
+
+
 #contact {
-  background-color: #6a9ac4;
+  background-color: var(--theme-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,7 +95,7 @@ body {
 }
 
 .contact-form-wrapper {
-  background-color: #ffffff8f;
+  background-color:var(--bold-text);
   border-radius: 0 10px 10px 0;
 }
 

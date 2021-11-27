@@ -796,6 +796,13 @@ font-weight: 500;
     border-width: 10px;
   }
 
+  @media(max-width: 900px){
+    .projectImg{
+      width: 80vw;
+      
+    }
+  }
+
   .projectImg2{
     width: 400px;
     display: none;

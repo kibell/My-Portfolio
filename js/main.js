@@ -36,7 +36,7 @@ $('.umhb').on('click', function(){
     $('.al2').text("NCAA Men's BasketBall")
     $('.al3').text("")
     $('.imgSwitch').attr('src', './images/umhb.jpg' )
-    $('.cert').attr('src', './images/umhbcert.jpg')
+    $('.cert').attr('src', '')
     $('.fs1').text("	Recognized by campus leaders and peers and was elected in a prestigious role to represent the college campus. I was responsible for welcoming prospective students and their families to campus and assisting staff at events for new students. Lead tour groups throughout the school year. I coordinated with students and parents and accurately conveyed information about the University and aided if help was needed.")
     $('.fs2').text("Dedication as I played all four years at UMHB. I Lead my team to the NCAA Finals and was recognized nationally as a top player in the country. (Currently the record holder for most rebounds in a single game at university) Exhibited excellent time management skills by devoting 25 hour per week towards a strict athletic schedule and maintaining a full course load over the span of 4 years.")
     $('.ambass').attr('src', './images/ambassdor.jpg')
@@ -64,47 +64,55 @@ $('.uot').on('click', function(){
 
 
 
-$('.fa-html5 ').on('click',function() {
+$('.htmlBox').on('click',function() {
     console.log("html")
     $('.desTitle').text("HTML")
     $('.des').text("Throughout my time as a Business Analyst I spent a fraction of my time Testing and making updates to the Benefits Portal Website. My knowledge of HTML increased with the education I have recieved at the UT coding academy.")
   });
 
-  $('.fa-css3-alt').on('click',function() {
+  $('.cssBox').on('click',function() {
     console.log("css")
     $('.desTitle').text("CSS")
     $('.des').text("My experience at the UT coding camp enhanced by abilities in CSS. Styling designs and having the free range of being creative is one of my favortie aspects of Web Development")
   });
 
-  $('.fa-js').on('click',function() {
+  $('.jsBox').on('click',function() {
     console.log("javaScript")
     $('.desTitle').text("JavaScript")
     $('.des').text("My experience at the UT coding camp enhanced by abilities in JavaScript. I have Project examples below that showcase some of my skills using this coding language.")
   });
 
-  $('.fa-node-js').on('click',function() {
+  $('.nodeBox').on('click',function() {
     console.log("Node. JS")
     $('.desTitle').text("NODE")
     $('.des').text("My experience at the UT coding camp enhanced by abilities in Node. We enhanced our skills in Javascript learning Node. Project examples below.")
   });
   
-  $('.fa-language').on('click',function() {
+  $('.spanishBox').on('click',function() {
     console.log("Spanish")
     $('.desTitle').text("Communication")
     $('.des').text("I have been practicing Spanish for 3 years, I can communicate effectively in Spanish. I can read, write, and speak at an intermidate level. ")
   });
 
-  $('.fa-git-alt').on('click',function() {
+  $('.gitBox').on('click',function() {
     console.log("Terminal")
     $('.desTitle').text("Git Bash/Terminal")
     $('.des').text("Throughout the Bootcamp we have been utilizing Git Bash/Terminal for colloabrative projects and for commiting changes with our code to Git Hub. Take a look at my GitHub Account to see my commit history for each project" )
   });
 
-  $('.sql').on('click',function() {
+  $('.sqlBox').on('click',function() {
     console.log("sql")
     $('.desTitle').text("MicroSoft SQL")
     $('.des').text("SQL is the foundation software that I use at Empyrean Benefits Solutions, We use SQL everyday for aggregating data for clients, building reports, and analyzing data for our vendors and clients" )
   });
+
+  $('.reactBox').on('click',function() {
+    console.log("sql")
+    $('.desTitle').text("React Native")
+    $('.des').text("React is the foundation software that I use at Empyrean Benefits Solutions, We use SQL everyday for aggregating data for clients, building reports, and analyzing data for our vendors and clients" )
+  });
+
+
 
 
 //   

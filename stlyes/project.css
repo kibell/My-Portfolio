@@ -789,8 +789,11 @@ font-weight: 500;
   }
 
   .projectImg{
-    width: 600px;
+    width: 50vw;
     display: none;
+    border:var(--highlights);
+    border-style: solid;
+    border-width: 10px;
   }
 
   .projectImg2{

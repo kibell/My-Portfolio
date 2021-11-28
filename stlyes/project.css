@@ -765,12 +765,37 @@ font-weight: 500;
 }
 
 .BellSprout{
-  background-image: url("../images/projectImages/Bell.PNG");
-  background-size: 100%;
+  background-image: url("../images/projectImages/bellsp.gif");
+  background-size: cover;
+  background-position: center;
+}
+
+.liri{
+  background-image: url("../images/projectImages/liri.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.giphy{
+  background-image: url("../images/projectImages/giphy\ API.gif");
+  background-size: cover;
+  background-position: center;
+}
+
+.ctrack{
+  background-image: url("../images/projectImages/ctrack.PNG");
+  background-size: contain;
+  background-position: center;
 }
 
 .clicky{
   background-image: url("../images/projectImages/React\ App.gif");
+  background-size: cover;
+  background-position: center;
+}
+
+.orgSpace{
+  background-image: url("../images/projectImages/organized\ spaces.gif");
   background-size: cover;
   background-position: center;
 }

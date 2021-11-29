@@ -629,4 +629,28 @@ html {
 
 
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background:var(--main-text);
+  border-radius: 10px;
+ 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  
+  border-radius: 10px;
+  border: solid 2px var(--highlights);
+  background: #0a254e;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--main-text);
+}
 

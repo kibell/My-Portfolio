@@ -101,17 +101,17 @@
       <div class="boxContainer">
        
 
-        <div class="box triviaProject"></div>
-        <div class="box BellSprout"></div>
-        <div class="box meetMe"></div>
-        <div class="box orgSpace"></div>
-        <div class="box triviaR"></div>
+        <div class="box triviaProject" id="triviaProject" onmouseover=hoverPi(this.id) ></div>
+        <div class="box bellSprout" id="bellSprout" onmouseover=hoverPi(this.id)></div>
+        <div class="box meetMe"id="meetMe" onmouseover=hoverPi(this.id)></div>
+        <div class="box orgSpace"id="orgSpace" onmouseover=hoverPi(this.id)></div>
+        <div class="box triviaR" id="triviaR" onmouseover=hoverPi(this.id)></div>
         
-        <div class="box clicky"></div>
+        <div class="box clicky" id="clicky" onmouseover=hoverPi(this.id)></div>
         
-        <div class="box liri"></div>
-        <div class="box ctrack"></div>
-        <div class="box giphy"></div>
+        <div class="box liri" id="liri" onmouseover=hoverPi(this.id)></div>
+        <div class="box ctrack" id="ctrack" onmouseover=hoverPi(this.id)></div>
+        <div class="box giphy" id="giphy" onmouseover=hoverPi(this.id)></div>
      
       
       </div>
@@ -138,147 +138,31 @@
 
     <script> 
 
-$('.giphy').hover( function(){
-      $('.projectTitle').text("Giphy API")
-      $('.frames').text("Used: Jquery, Javascript, Node, Spotify API,OMDB API, Bands API")
-      $('.description').text("Node Liri app uses 3 different API's to give the user information on specific requests using very specific syntax using the Terminal. This Application uses a combination of node and javascript for its functionality.")
-      $('.projectImg').attr('src', './images/projectImages/giphy API.gif')
-      $('.projectImg2').attr('src', './images/projectImages/Netflix Clone.gif')
-      $('.viewCode').text("View Code")
-      $('.viewSite').text("Visit Site")
-      document.getElementById("viewCode").href="https://github.com/kibell/GiphyAPI"
-      document.getElementById("viewSite").href="https://kibell.github.io/GiphyAPI/"
-       document.getElementById("projectImg").style.display = "block"
-       document.getElementById("vc").style.display = "block"
-       document.getElementById("vs").style.display = "block"
 
-      })
+  //Giphy Project
 
-$('.ctrack').hover( function(){
-      $('.projectTitle').text("Corona Tracker")
-      $('.frames').text("Used: Jquery, Javascript, Node, Spotify API,OMDB API, Bands API")
-      $('.description').text("Node Liri app uses 3 different API's to give the user information on specific requests using very specific syntax using the Terminal. This Application uses a combination of node and javascript for its functionality.")
-      $('.projectImg').attr('src', './images/projectImages/ctrack.gif')
-      $('.projectImg2').attr('src', './images/projectImages/Netflix Clone.gif')
-      $('.viewCode').text("View Code")
-      $('.viewSite').text("Visit Site")
-      document.getElementById("viewCode").href="https://github.com/kibell/CoronaTracker"
-      document.getElementById("viewSite").href="https://warm-lowlands-22039.herokuapp.com/"
-       document.getElementById("projectImg").style.display = "block"
-       document.getElementById("vc").style.display = "block"
-       document.getElementById("vs").style.display = "none"
 
-      })
 
-$('.liri').hover( function(){
-      $('.projectTitle').text("Liri Bot")
-      $('.frames').text("Used: Jquery, Javascript, Node, Spotify API,OMDB API, Bands API")
-      $('.description').text("Node Liri app uses 3 different API's to give the user information on specific requests using very specific syntax using the Terminal. This Application uses a combination of node and javascript for its functionality.")
-      $('.projectImg').attr('src', './images/projectImages/Liri.gif')
-      $('.projectImg2').attr('src', './images/projectImages/Netflix Clone.gif')
-      $('.viewCode').text("View Code")
-      $('.viewSite').text("Visit Site")
-      document.getElementById("viewCode").href="https://github.com/kibell/LIRI"
-      document.getElementById("viewSite").href="https://warm-lowlands-22039.herokuapp.com/"
-       document.getElementById("projectImg").style.display = "block"
-       document.getElementById("vc").style.display = "block"
-       document.getElementById("vs").style.display = "none"
+//
 
-      })
 
-      $('.triviaProject').hover( function(){
-      $('.projectTitle').text("Netflix Clone App")
-      $('.frames').text("Used: React, Javascript, Firebase, HTML, CSS")
-      $('.description').text("This Project is a replica of Netflix, Site is deployed with Heroku, please allow time to load.")
-      $('.projectImg').attr('src', './images/projectImages/Netflix Clone.gif')
-      $('.projectImg2').attr('src', './images/projectImages/Netflix Clone.gif')
-      $('.viewCode').text("View Code")
-      $('.viewSite').text("Visit Site")
-      document.getElementById("viewCode").href="https://github.com/kibell/Netflix-Clone"
-      document.getElementById("viewSite").href="https://warm-lowlands-22039.herokuapp.com/"
-       document.getElementById("projectImg").style.display = "block"
-       document.getElementById("vc").style.display = "block"
-       document.getElementById("vs").style.display = "block"
 
-      })
+     
 
-      $('.meetMe').hover( function(){
-      $('.projectTitle').text("Meet Me Geocoder App")
-      $('.frames').text("Used: Javascript, Google API, HTML, CSS")
-      $('.description').text("Meet me Uses Google's API to find the midpoint between two locations.")
-      $('.projectImg').attr('src', './images/projectImages/Document.gif')
-    
-      $('.viewCode').text("View Code")
-      $('.viewSite').text("Visit Site")
-      document.getElementById("viewCode").href="https://github.com/kibell/Meetme"
-      document.getElementById("viewSite").href="https://kibell.github.io/Meetme/Address.html"
-       document.getElementById("projectImg").style.display = "block"
-       document.getElementById("vc").style.display = "block"
-       document.getElementById("vs").style.display = "block"
-      })
+     
       
 
-      $('.triviaR').hover( function(){
-      $('.projectTitle').text("Timed Trivia App")
-      $('.frames').text("Used: Javascript, HTML, CSS")
-      $('.description').text("Try out this timed Quiz game. How well is your comic knowledge?")
-      $('.projectImg').attr('src', './images/projectImages/Trivia.gif')
-    
-      $('.viewCode').text("View Code")
-      $('.viewSite').text("Visit Site")
-      document.getElementById("viewCode").href="https://github.com/kibell/Trivia-Game-"
-      document.getElementById("viewSite").href=" https://kibell.github.io/Trivia-Game-/"
-       document.getElementById("projectImg").style.display = "block"
-       document.getElementById("vc").style.display = "block"
-       document.getElementById("vs").style.display = "block"
-      })
-
-      $('.BellSprout').hover( function(){
-      $('.projectTitle').text("BellSprout Web Design")
-      $('.frames').text("Used: Javascript, HTML, CSS, WordPress ")
-      $('.description').text("Designed this Website using wordpress.")
-      $('.projectImg').attr('src', './images/projectImages/Bell.gif')
-    
-      $('.viewCode').text("View Code")
-      $('.viewSite').text("Visit Site")
-      document.getElementById("viewCode").href=""
-      document.getElementById("viewSite").href=" https://bellsproutdesigns.com/"
-       document.getElementById("projectImg").style.display = "block"
-       document.getElementById("vc").style.display = "none"
-       document.getElementById("vs").style.display = "block"
-      })
+     
 
       
-      $('.clicky').hover( function(){
-      $('.projectTitle').text("Anime Clicky App")
-      $('.frames').text("Used: Javascript, HTML, CSS,")
-      $('.description').text("Test your memory with this fun Clicky Application. Click on each character only once. Characters are shuffled everytime. Can you get them all?")
-      $('.projectImg').attr('src', './images/projectImages/React App.gif')
-    
-      $('.viewCode').text("View Code")
-      $('.viewSite').text("Visit Site")
-      document.getElementById("viewCode").href="https://github.com/kibell/Clicky-Game-React"
-      document.getElementById("viewSite").href=" https://naughty-allen-95382a.netlify.app/"
-       document.getElementById("projectImg").style.display = "block"
-       document.getElementById("vc").style.display = "block"
-       document.getElementById("vs").style.display = "block"
-      })
 
-      $('.orgSpace').hover( function(){
-      $('.projectTitle').text("Org Spaces")
-      $('.frames').text("Used: Javascript, HTML, CSS, Express, Sequlize, SQL, handlebars ")
-      $('.description').text("Allows the user to enter and store items in a database so that the user will always know where their items are located.")
-      $('.projectImg').attr('src', './images/projectImages/organized spaces2.gif')
-    
-      $('.viewCode').text("View Code")
-      $('.viewSite').text("Visit Site")
-      document.getElementById("viewCode").href="https://github.com/kibell/My-Spaces"
-      document.getElementById("viewSite").href="https://orgspaces.herokuapp.com/"
-       document.getElementById("projectImg").style.display = "block"
-       document.getElementById("vc").style.display = "block"
-       document.getElementById("vs").style.display = "block"
-      })
+      
+     
+
+     
       </script>
+
+<script src="./js/projects.js"></script>
 </body>
 
 

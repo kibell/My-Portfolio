@@ -14,8 +14,8 @@ class HoverPic {
 rpg = new HoverPic(
   "rpg",
   "Pokemon RPG",
-  "Used: Javascript, HTML, CSS,",
-  "Test your memory with this fun Clicky Application. Click on each character only once. Characters are shuffled everytime. Can you get them all?",
+  "Used: Javascript, HTML, CSS, Jquery",
+  "Using Object oriented programming techniques to add new character and move sets to create a classic Role playing game",
   "./images/projectImages/Pokemon RPG.gif",
   "https://github.com/kibell/pokemon-rpg-game",
   " https://kibell.github.io/pokemon-rpg-game/",

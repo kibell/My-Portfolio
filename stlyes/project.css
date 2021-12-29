@@ -758,6 +758,12 @@ font-weight: 500;
   background-position: center;
 }
 
+.rpg{
+  background-image: url("../images/projectImages/meetme.png");
+  background-size: cover;
+  background-position: center;
+}
+
 .triviaR{
   background-image: url("../images/projectImages/trivia.PNG");
   background-size: cover;

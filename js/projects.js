@@ -11,6 +11,17 @@ class HoverPic {
 }
 
 //New Project constructors
+rpg = new HoverPic(
+  "rpg",
+  "Pokemon RPG",
+  "Used: Javascript, HTML, CSS,",
+  "Test your memory with this fun Clicky Application. Click on each character only once. Characters are shuffled everytime. Can you get them all?",
+  "./images/projectImages/Pokemon RPG.gif",
+  "https://github.com/kibell/pokemon-rpg-game",
+  " https://kibell.github.io/pokemon-rpg-game/",
+  "block",
+  "none"
+);
 giphy = new HoverPic(
   "giphy",
   "Giphy API",
@@ -107,6 +118,7 @@ clicky = new HoverPic(
 function hoverPi(id) {
   //List of project id's stored in an object
   const projectObj = {
+    rpg,
     giphy,
     ctrack,
     liri,

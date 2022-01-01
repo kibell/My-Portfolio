@@ -654,3 +654,8 @@ html {
   background: var(--main-text);
 }
 
+@media only screen and (max-width: 764px) {
+  .rightBar {
+    display: none;
+  }
+}

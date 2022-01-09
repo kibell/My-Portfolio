@@ -25,6 +25,11 @@ body{
   
 }
 
+.navbar-toggler:hover{
+  color: #091c38;
+
+}
+
 p{
     font-family: var(--main-font);
     color: var(--main-text);
@@ -40,6 +45,7 @@ font-weight: 500;
 
     color:var(--highlights)
 }
+
 .highlight{
     color: var(--highlights);
     letter-spacing: 0px;

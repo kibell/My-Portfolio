@@ -718,10 +718,13 @@ font-weight: 500;
 
  #vc{
    display: none;
+   margin-bottom: 5px;
+   
  }
 
  #vs{
   display: none;
+  margin-bottom: 5px;
 }
   .boxContainer {
     height: 50vh;

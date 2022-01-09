@@ -59,7 +59,7 @@ triviaProject = new HoverPic(
   "Netflix Clone App",
   "Used: React, Javascript, Firebase, HTML, CSS",
   "This Project is a replica of Netflix, Site is deployed with Heroku, please allow time to load.",
-  "./images/projectImages/Netflix Clone.gif",
+  "./images/projectImages/nc.gif",
   "https://github.com/kibell/Netflix-Clone",
   "https://warm-lowlands-22039.herokuapp.com/"
 );
@@ -70,7 +70,7 @@ bellSprout = new HoverPic(
   "Used: Javascript, HTML, CSS, WordPress",
   "Designed this Website using wordpress.",
   "./images/projectImages/Bell.gif",
-  "",
+  "https://bellsproutdesigns.com/",
   "https://bellsproutdesigns.com/"
 );
 
@@ -146,8 +146,8 @@ function hoverPi(id) {
       document.getElementById("viewCode").href = projectObj[proj].vchref;
       document.getElementById("viewSite").href = projectObj[proj].vshref;
       document.getElementById("projectImg").style.display = "block";
-      document.getElementById("vc").style.display = "block";
-      document.getElementById("vs").style.display = "block";
+      document.getElementById("vc").style.display = "inline-block";
+      document.getElementById("vs").style.display = "inline-block";
     } else {
     }
   }

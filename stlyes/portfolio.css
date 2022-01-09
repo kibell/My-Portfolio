@@ -158,7 +158,7 @@ background-color: var(--highlights);
 .lower{
     width: 100px;
     position: absolute;
-    bottom:0px;
+    bottom:100px;
     right: 40px;
     left: auto;
     z-index: 10;

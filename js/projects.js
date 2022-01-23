@@ -111,7 +111,7 @@ clicky = new HoverPic(
   "Test your memory with this fun Clicky Application. Click on each character only once. Characters are shuffled everytime. Can you get them all?",
   "./images/projectImages/React App.gif",
   "https://github.com/kibell/Clicky-Game-React",
-  " https://naughty-allen-95382a.netlify.app/"
+  "https://naughty-allen-95382a.netlify.app/"
 );
 
 
